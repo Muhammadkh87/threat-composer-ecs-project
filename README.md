@@ -42,7 +42,7 @@ http://threat.devopscookie.com
 
 ⚠️ HTTPS can be added using ACM + Route53 (optional enhancement)
 
-✨ Features
+## Features
 ✅ Deployed on ECS Fargate (serverless containers)
 ✅ Application Load Balancer (ALB) for traffic routing
 ✅ Multi-AZ deployment for high availability
