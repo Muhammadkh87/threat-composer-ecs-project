@@ -1,21 +1,21 @@
-# -------- Stage 1: builder --------
+# -------- Stage 1: build --------
 FROM node:20-alpine AS builder
 
 WORKDIR /app
 
-# Copy only the built website into the builder stage
-COPY packages/threat-composer-app/build/website ./website
+COPY . .
+
+RUN yarn install --frozen-lockfile
+RUN yarn build
 
 # -------- Stage 2: runtime --------
 FROM node:20-alpine
 
 WORKDIR /app
 
-# Copy the built website from the builder stage
-COPY --from=builder /app/website ./website
-
-# Install a lightweight static file server
 RUN yarn global add serve
+
+COPY --from=builder /app/packages/threat-composer-app/build/website ./website
 
 EXPOSE 3000
 
