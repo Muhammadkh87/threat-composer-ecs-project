@@ -35,6 +35,9 @@ flowchart LR
     VPC --> ALB
     VPC --> ECS
 ```
+
+![live app](./docs/screenshot2.jpg)
+
 ## Live Application
 http://threat.devopscookie.com
 
@@ -87,8 +90,6 @@ Tags image with commit SHA
 Pushes image to Amazon ECR
 Triggers ECS service deployment
 ## CI/CD Pipeline
-
-(Add your pipeline screenshot here)
 
 ![CI/CD Pipeline](./docs/screenshot.jpg)
 ## Docker
