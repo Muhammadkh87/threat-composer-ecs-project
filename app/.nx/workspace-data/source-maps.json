@@ -1,0 +1,2094 @@
+{
+  ".": {
+    "root": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "name": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "tags": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "package.json",
+      "nx/core/package-json"
+    ]
+  },
+  "packages/threat-composer": {
+    "root": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "packages/threat-composer/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "packages/threat-composer/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/threat-composer/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/threat-composer/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/threat-composer/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "packages/threat-composer/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "packages/threat-composer/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/threat-composer/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "packages/threat-composer/package.json",
+      "nx/core/package-json"
+    ],
+    "//": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.default": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.default.executor": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.default.options": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.default.options.command": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.default.options.cwd": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.pre-compile": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.pre-compile.executor": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.pre-compile.options": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.pre-compile.options.command": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.pre-compile.options.cwd": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.compile": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.compile.executor": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.compile.options": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.compile.options.command": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.compile.options.cwd": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.post-compile": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.post-compile.executor": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.post-compile.options": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.post-compile.options.command": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.post-compile.options.cwd": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.command": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.cwd": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.package": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.package.executor": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.package.options": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.package.options.command": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.package.options.cwd": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.command": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.cwd": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test:watch": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test:watch.executor": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test:watch.options": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test:watch.options.command": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test:watch.options.cwd": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.post-upgrade": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.post-upgrade.executor": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.post-upgrade.options": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.post-upgrade.options.command": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.post-upgrade.options.cwd": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.upgrade": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.upgrade.executor": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.upgrade.options": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.upgrade.options.command": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.upgrade.options.cwd": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.watch": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.watch.executor": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.watch.options": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.watch.options.command": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.watch.options.cwd": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.eslint": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.eslint.executor": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.eslint.options": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.eslint.options.command": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.eslint.options.cwd": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.storybook": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.storybook.executor": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.storybook.options": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.storybook.options.command": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.storybook.options.cwd": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.storybook:build": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.storybook:build.executor": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.storybook:build.options": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.storybook:build.options.command": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.storybook:build.options.cwd": [
+      "packages/threat-composer/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "packages/threat-composer-app": {
+    "root": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "packages/threat-composer-app/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "packages/threat-composer-app/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/threat-composer-app/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "packages/threat-composer-app/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "packages/threat-composer-app/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "packages/threat-composer-app/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "packages/threat-composer-app/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.3": [
+      "packages/threat-composer-app/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.4": [
+      "packages/threat-composer-app/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.5": [
+      "packages/threat-composer-app/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.6": [
+      "packages/threat-composer-app/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.7": [
+      "packages/threat-composer-app/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.8": [
+      "packages/threat-composer-app/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.9": [
+      "packages/threat-composer-app/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.10": [
+      "packages/threat-composer-app/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.11": [
+      "packages/threat-composer-app/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.12": [
+      "packages/threat-composer-app/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.13": [
+      "packages/threat-composer-app/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/threat-composer-app/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/threat-composer-app/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "packages/threat-composer-app/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/threat-composer-app/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "packages/threat-composer-app/package.json",
+      "nx/core/package-json"
+    ],
+    "//": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies.@aws/threat-composer": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.default": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.default.executor": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.default.options": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.default.options.command": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.default.options.cwd": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.pre-compile": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.pre-compile.executor": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.pre-compile.options": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.pre-compile.options.command": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.pre-compile.options.cwd": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.compile": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.compile.executor": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.compile.options": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.compile.options.command": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.compile.options.cwd": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.post-compile": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.post-compile.executor": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.post-compile.options": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.post-compile.options.command": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.post-compile.options.cwd": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.command": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.cwd": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.package": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.package.executor": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.package.options": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.package.options.command": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.package.options.cwd": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.command": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.cwd": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.post-upgrade": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.post-upgrade.executor": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.post-upgrade.options": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.post-upgrade.options.command": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.post-upgrade.options.cwd": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.upgrade": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.upgrade.executor": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.upgrade.options": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.upgrade.options.command": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.upgrade.options.cwd": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.watch": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.watch.executor": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.watch.options": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.watch.options.command": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.watch.options.cwd": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.eslint": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.eslint.executor": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.eslint.options": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.eslint.options.command": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.eslint.options.cwd": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.executor": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options.command": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.dev.options.cwd": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.compile:website": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.compile:website.executor": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.compile:website.options": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.compile:website.options.command": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.compile:website.options.cwd": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.compile:browser-extension": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.compile:browser-extension.executor": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.compile:browser-extension.options": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.compile:browser-extension.options.command": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.compile:browser-extension.options.cwd": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.compile:ide-extension": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.compile:ide-extension.executor": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.compile:ide-extension.options": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.compile:ide-extension.options.command": [
+      "project.json",
+      "nx/core/project-json"
+    ],
+    "targets.compile:ide-extension.options.cwd": [
+      "project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "packages/threat-composer-app-browser-extension": {
+    "root": [
+      "packages/threat-composer-app-browser-extension/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "packages/threat-composer-app-browser-extension/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.3": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.4": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.5": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.6": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.7": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.8": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.9": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.10": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.11": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.12": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.13": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.14": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.15": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageMain": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.compile": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.compile.executor": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.compile.options": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.compile.metadata": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.compile.options.script": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.compile.metadata.scriptContent": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.compile.metadata.runCommand": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.default": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.default.executor": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.default.options": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.default.metadata": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.default.options.script": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.default.metadata.scriptContent": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.default.metadata.runCommand": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.executor": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.options": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.metadata": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.options.script": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.metadata.scriptContent": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev.metadata.runCommand": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev:firefox": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev:firefox.executor": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev:firefox.options": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev:firefox.metadata": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev:firefox.options.script": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev:firefox.metadata.scriptContent": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.dev:firefox.metadata.runCommand": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.eslint": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.eslint.executor": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.eslint.options": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.eslint.metadata": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.eslint.options.script": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.eslint.metadata.scriptContent": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.eslint.metadata.runCommand": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.package": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.package.executor": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.package.options": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.package.metadata": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.package.options.script": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.package.metadata.scriptContent": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.package.metadata.runCommand": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.post-compile": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.post-compile.executor": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.post-compile.options": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.post-compile.metadata": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.post-compile.options.script": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.post-compile.metadata.scriptContent": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.post-compile.metadata.runCommand": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.post-upgrade": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.post-upgrade.executor": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.post-upgrade.options": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.post-upgrade.metadata": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.post-upgrade.options.script": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.post-upgrade.metadata.scriptContent": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.post-upgrade.metadata.runCommand": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.postinstall": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.postinstall.executor": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.postinstall.options": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.postinstall.metadata": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.postinstall.options.script": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.postinstall.metadata.scriptContent": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.postinstall.metadata.runCommand": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.pre-compile": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.pre-compile.executor": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.pre-compile.options": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.pre-compile.metadata": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.pre-compile.options.script": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.pre-compile.metadata.scriptContent": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.pre-compile.metadata.runCommand": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.executor": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.options": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.options.script": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata.scriptContent": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata.runCommand": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.executor": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.options": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.options.script": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata.scriptContent": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata.runCommand": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.upgrade": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.upgrade.executor": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.upgrade.options": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.upgrade.metadata": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.upgrade.options.script": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.upgrade.metadata.scriptContent": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.upgrade.metadata.runCommand": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.watch": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.watch.executor": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.watch.options": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.watch.metadata": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.watch.options.script": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.watch.metadata.scriptContent": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.watch.metadata.runCommand": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.zip": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.zip.executor": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.zip.options": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.zip.metadata": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.zip.options.script": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.zip.metadata.scriptContent": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.zip.metadata.runCommand": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.zip:firefox": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.zip:firefox.executor": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.zip:firefox.options": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.zip:firefox.metadata": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.zip:firefox.options.script": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.zip:firefox.metadata.scriptContent": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.zip:firefox.metadata.runCommand": [
+      "packages/threat-composer-app-browser-extension/package.json",
+      "nx/core/package-json"
+    ],
+    "sourceRoot": [
+      "packages/threat-composer-app-browser-extension/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "packages/threat-composer-app-browser-extension/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.install": [
+      "packages/threat-composer-app-browser-extension/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.install.executor": [
+      "packages/threat-composer-app-browser-extension/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.install.options": [
+      "packages/threat-composer-app-browser-extension/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.install.options.commands": [
+      "packages/threat-composer-app-browser-extension/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.install.options.parallel": [
+      "packages/threat-composer-app-browser-extension/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "packages/threat-composer-app-browser-extension/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "packages/threat-composer-app-browser-extension/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "packages/threat-composer-app-browser-extension/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.commands": [
+      "packages/threat-composer-app-browser-extension/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.parallel": [
+      "packages/threat-composer-app-browser-extension/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "packages/threat-composer-infra": {
+    "root": [
+      "packages/threat-composer-infra/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "packages/threat-composer-infra/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "tags.npm:public": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.0": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.1": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.2": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.3": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.4": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.5": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.6": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.7": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.8": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.9": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.10": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.11": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.12": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.13": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.14": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.15": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.targetGroups.NPM Scripts.16": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageName": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.packageVersion": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "metadata.js.isInPackageManagerWorkspaces": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.bundle": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.bundle.executor": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.bundle.options": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.bundle.metadata": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.bundle.options.script": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.bundle.metadata.scriptContent": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.bundle.metadata.runCommand": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.compile": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.compile.executor": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.compile.options": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.compile.metadata": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.compile.options.script": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.compile.metadata.scriptContent": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.compile.metadata.runCommand": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.default": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.default.executor": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.default.options": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.default.metadata": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.default.options.script": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.default.metadata.scriptContent": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.default.metadata.runCommand": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.deploy": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.deploy.executor": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.deploy.options": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.deploy.metadata": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.deploy.options.script": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.deploy.metadata.scriptContent": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.deploy.metadata.runCommand": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.destroy": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.destroy.executor": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.destroy.options": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.destroy.metadata": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.destroy.options.script": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.destroy.metadata.scriptContent": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.destroy.metadata.runCommand": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.diff": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.diff.executor": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.diff.options": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.diff.metadata": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.diff.options.script": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.diff.metadata.scriptContent": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.diff.metadata.runCommand": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.eslint": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.eslint.executor": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.eslint.options": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.eslint.metadata": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.eslint.options.script": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.eslint.metadata.scriptContent": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.eslint.metadata.runCommand": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.package": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.package.executor": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.package.options": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.package.metadata": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.package.options.script": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.package.metadata.scriptContent": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.package.metadata.runCommand": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.post-compile": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.post-compile.executor": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.post-compile.options": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.post-compile.metadata": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.post-compile.options.script": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.post-compile.metadata.scriptContent": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.post-compile.metadata.runCommand": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.post-upgrade": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.post-upgrade.executor": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.post-upgrade.options": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.post-upgrade.metadata": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.post-upgrade.options.script": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.post-upgrade.metadata.scriptContent": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.post-upgrade.metadata.runCommand": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.pre-compile": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.pre-compile.executor": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.pre-compile.options": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.pre-compile.metadata": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.pre-compile.options.script": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.pre-compile.metadata.scriptContent": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.pre-compile.metadata.runCommand": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.synth": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.synth.executor": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.synth.options": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.synth.metadata": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.synth.options.script": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.synth.metadata.scriptContent": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.synth.metadata.runCommand": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.synth:silent": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.synth:silent.executor": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.synth:silent.options": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.synth:silent.metadata": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.synth:silent.options.script": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.synth:silent.metadata.scriptContent": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.synth:silent.metadata.runCommand": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.executor": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.options": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.options.script": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata.scriptContent": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test.metadata.runCommand": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.executor": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.options": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.options.script": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata.scriptContent": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.test:watch.metadata.runCommand": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.upgrade": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.upgrade.executor": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.upgrade.options": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.upgrade.metadata": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.upgrade.options.script": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.upgrade.metadata.scriptContent": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.upgrade.metadata.runCommand": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.watch": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.watch.executor": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.watch.options": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.watch.metadata": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.watch.options.script": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.watch.metadata.scriptContent": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "targets.watch.metadata.runCommand": [
+      "packages/threat-composer-infra/package.json",
+      "nx/core/package-json"
+    ],
+    "sourceRoot": [
+      "packages/threat-composer-infra/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "packages/threat-composer-infra/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.install": [
+      "packages/threat-composer-infra/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.install.executor": [
+      "packages/threat-composer-infra/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.install.options": [
+      "packages/threat-composer-infra/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.install.options.commands": [
+      "packages/threat-composer-infra/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.install.options.parallel": [
+      "packages/threat-composer-infra/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "packages/threat-composer-infra/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "packages/threat-composer-infra/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "packages/threat-composer-infra/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.commands": [
+      "packages/threat-composer-infra/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.parallel": [
+      "packages/threat-composer-infra/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "packages/threat-composer-ai": {
+    "root": [
+      "packages/threat-composer-ai/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "packages/threat-composer-ai/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "packages/threat-composer-ai/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "packages/threat-composer-ai/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "packages/threat-composer-ai/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.install": [
+      "packages/threat-composer-ai/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.install.executor": [
+      "packages/threat-composer-ai/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.install.options": [
+      "packages/threat-composer-ai/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.install.options.commands": [
+      "packages/threat-composer-ai/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.install.options.parallel": [
+      "packages/threat-composer-ai/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "packages/threat-composer-ai/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "packages/threat-composer-ai/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "packages/threat-composer-ai/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.commands": [
+      "packages/threat-composer-ai/project.json",
+      "nx/core/project-json"
+    ]
+  }
+}

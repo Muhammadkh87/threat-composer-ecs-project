@@ -1,0 +1,50 @@
+{
+  "npmScope": "monorepo",
+  "implicitDependencies": {},
+  "affected": {
+    "defaultBase": "main"
+  },
+  "namedInputs": {
+    "default": [
+      "{projectRoot}/**/*"
+    ]
+  },
+  "targetDefaults": {
+    "build": {
+      "inputs": [
+        "default",
+        "^default"
+      ],
+      "outputs": [
+        "{projectRoot}/dist",
+        "{projectRoot}/lib",
+        "{projectRoot}/build",
+        "{projectRoot}/coverage",
+        "{projectRoot}/test-reports"
+      ],
+      "dependsOn": [
+        "^build"
+      ]
+    }
+  },
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "nx/tasks-runners/default",
+      "options": {
+        "useDaemonProcess": false,
+        "cacheableOperations": [
+          "build",
+          "test"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "threat-composer": "packages/threat-composer",
+    // "threat-composer-ai": "packages/threat-composer-ai",
+    "threat-composer-app": "packages/threat-composer-app",
+    "threat-composer-app-browser-extension": "packages/threat-composer-app-browser-extension",
+    "threat-composer-infra": "packages/threat-composer-infra"
+  },
+  "analytics": true
+}

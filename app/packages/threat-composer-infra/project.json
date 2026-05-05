@@ -1,0 +1,22 @@
+{
+  "name": "threat-composer-infra",
+  "root": "packages/threat-composer-infra",
+  "sourceRoot": "packages/threat-composer-infra/src",
+  "projectType": "library",
+  "targets": {
+    "install": {
+      "executor": "nx:run-commands",
+      "options": {
+        "commands": ["echo Installing threat-composer-infra dependencies..."],
+        "parallel": false
+      }
+    },
+    "build": {
+      "executor": "nx:run-commands",
+      "options": {
+        "commands": ["echo Build threat-composer-infra..."],
+        "parallel": false
+      }
+    }
+  }
+}

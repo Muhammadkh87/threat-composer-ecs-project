@@ -1,0 +1,3266 @@
+{
+  "version": "6.0",
+  "nxVersion": "22.6.4",
+  "pathMappings": {},
+  "nxJsonPlugins": [],
+  "fileMap": {
+    "projectFileMap": {
+      "threat-composer-workspace": [
+        {
+          "file": "packages/threat-composer-app/.eslintignore",
+          "hash": "6292509585699817521"
+        },
+        {
+          "file": "packages/threat-composer-app/.eslintrc.json",
+          "hash": "2446546229732240038"
+        },
+        {
+          "file": "packages/threat-composer-app/.gitattributes",
+          "hash": "14911796792888327247"
+        },
+        {
+          "file": "packages/threat-composer-app/.gitignore",
+          "hash": "2924802824653770930"
+        },
+        {
+          "file": "packages/threat-composer-app/.npmignore",
+          "hash": "783765217951722841"
+        },
+        {
+          "file": "packages/threat-composer-app/.projen/deps.json",
+          "hash": "11948648969220414792"
+        },
+        {
+          "file": "packages/threat-composer-app/.projen/files.json",
+          "hash": "9566248338789942090"
+        },
+        {
+          "file": "packages/threat-composer-app/.projen/tasks.json",
+          "hash": "12818949169258807149"
+        },
+        {
+          "file": "packages/threat-composer-app/LICENSE",
+          "hash": "1742713622754055560"
+        },
+        {
+          "file": "packages/threat-composer-app/README.md",
+          "hash": "8263095037995372836"
+        },
+        {
+          "file": "packages/threat-composer-app/craco.config.js",
+          "hash": "6817907255419679108"
+        },
+        {
+          "file": "packages/threat-composer-app/package.json",
+          "hash": "14225366819192133466",
+          "deps": [
+            "npm:@cloudscape-design/jest-preset",
+            "npm:@craco/craco",
+            "npm:@testing-library/jest-dom",
+            "npm:@testing-library/react",
+            "npm:@testing-library/user-event",
+            "npm:@types/jest",
+            "npm:@types/node",
+            "npm:@types/react",
+            "npm:@types/react-dom",
+            "npm:@types/react-router-dom",
+            "npm:@types/uuid",
+            "npm:@typescript-eslint/eslint-plugin",
+            "npm:@typescript-eslint/parser",
+            "npm:eslint",
+            "npm:eslint-import-resolver-typescript",
+            "npm:eslint-plugin-import",
+            "npm:merge",
+            "npm:react-scripts",
+            "npm:typescript",
+            "npm:@aws-northstar/ui",
+            "@aws/threat-composer",
+            "npm:@cloudscape-design/components",
+            "npm:@cloudscape-design/design-tokens",
+            "npm:@cloudscape-design/global-styles",
+            "npm:@emotion/react",
+            "npm:@uidotdev/usehooks",
+            "npm:docx",
+            "npm:react",
+            "npm:react-dom",
+            "npm:react-router-dom",
+            "npm:remark-frontmatter",
+            "npm:remark-gfm",
+            "npm:remark-parse",
+            "npm:unified",
+            "npm:unist-util-visit",
+            "npm:uuid",
+            "npm:web-vitals"
+          ]
+        },
+        {
+          "file": "packages/threat-composer-app/project.json",
+          "hash": "1300714022557198871"
+        },
+        {
+          "file": "packages/threat-composer-app/public/404.html",
+          "hash": "9692330790090582910"
+        },
+        {
+          "file": "packages/threat-composer-app/public/favicon.ico",
+          "hash": "18381878882279710433"
+        },
+        {
+          "file": "packages/threat-composer-app/public/favicon.svg",
+          "hash": "1128886236315320620"
+        },
+        {
+          "file": "packages/threat-composer-app/public/index.html",
+          "hash": "11366766405810172078"
+        },
+        {
+          "file": "packages/threat-composer-app/public/manifest.json",
+          "hash": "12555955781384465347"
+        },
+        {
+          "file": "packages/threat-composer-app/public/robots.txt",
+          "hash": "2790380794362165217"
+        },
+        {
+          "file": "packages/threat-composer-app/src/assets/logo-dark.svg",
+          "hash": "13422035753905419916"
+        },
+        {
+          "file": "packages/threat-composer-app/src/assets/logo-light.svg",
+          "hash": "12607376354665337438"
+        },
+        {
+          "file": "packages/threat-composer-app/src/components/FullAppLayout/constants.ts",
+          "hash": "8235507118460453011"
+        },
+        {
+          "file": "packages/threat-composer-app/src/components/FullAppLayout/index.tsx",
+          "hash": "11045681953992171940"
+        },
+        {
+          "file": "packages/threat-composer-app/src/components/MarkdownEditorWithPrompt/index.tsx",
+          "hash": "4870568295486880454"
+        },
+        {
+          "file": "packages/threat-composer-app/src/components/NavHeader/index.tsx",
+          "hash": "5695339533565776086"
+        },
+        {
+          "file": "packages/threat-composer-app/src/components/Notifications/index.tsx",
+          "hash": "13162070101055096456"
+        },
+        {
+          "file": "packages/threat-composer-app/src/components/StandaloneAppLayout/index.tsx",
+          "hash": "10744185997634806313"
+        },
+        {
+          "file": "packages/threat-composer-app/src/config/appMode.ts",
+          "hash": "6113856097351844204"
+        },
+        {
+          "file": "packages/threat-composer-app/src/config/routes.ts",
+          "hash": "9546269656033832670"
+        },
+        {
+          "file": "packages/threat-composer-app/src/config/searchParams.ts",
+          "hash": "13431044494996894204"
+        },
+        {
+          "file": "packages/threat-composer-app/src/containers/App/components/Full/index.tsx",
+          "hash": "15942928886390301753"
+        },
+        {
+          "file": "packages/threat-composer-app/src/containers/App/components/Standalone/index.tsx",
+          "hash": "8831133223251290319"
+        },
+        {
+          "file": "packages/threat-composer-app/src/containers/App/index.tsx",
+          "hash": "7469084875926824472"
+        },
+        {
+          "file": "packages/threat-composer-app/src/containers/AppLayout/index.tsx",
+          "hash": "6482506373730791441"
+        },
+        {
+          "file": "packages/threat-composer-app/src/containers/AppRoot/index.tsx",
+          "hash": "9890849901245271216"
+        },
+        {
+          "file": "packages/threat-composer-app/src/containers/Application/index.tsx",
+          "hash": "5553837879145643063"
+        },
+        {
+          "file": "packages/threat-composer-app/src/containers/Architecture/index.tsx",
+          "hash": "8125616765672681247"
+        },
+        {
+          "file": "packages/threat-composer-app/src/containers/AssumptionList/index.tsx",
+          "hash": "13534146360496826961"
+        },
+        {
+          "file": "packages/threat-composer-app/src/containers/BrainstormBoard/index.tsx",
+          "hash": "14139090393983419329"
+        },
+        {
+          "file": "packages/threat-composer-app/src/containers/Dataflow/index.tsx",
+          "hash": "12066912711600378906"
+        },
+        {
+          "file": "packages/threat-composer-app/src/containers/MitigationList/index.tsx",
+          "hash": "1789986793244858250"
+        },
+        {
+          "file": "packages/threat-composer-app/src/containers/MitigationPack/index.tsx",
+          "hash": "15844869789905041791"
+        },
+        {
+          "file": "packages/threat-composer-app/src/containers/MitigationPacks/index.tsx",
+          "hash": "2741182435432984240"
+        },
+        {
+          "file": "packages/threat-composer-app/src/containers/ThreatModelPreview/index.tsx",
+          "hash": "9973257964942612056"
+        },
+        {
+          "file": "packages/threat-composer-app/src/containers/ThreatModelReport/index.tsx",
+          "hash": "8160978352753914690"
+        },
+        {
+          "file": "packages/threat-composer-app/src/containers/ThreatPack/index.tsx",
+          "hash": "2542797980375013955"
+        },
+        {
+          "file": "packages/threat-composer-app/src/containers/ThreatPacks/index.tsx",
+          "hash": "4828762104880630266"
+        },
+        {
+          "file": "packages/threat-composer-app/src/containers/ThreatStatementEditor/index.tsx",
+          "hash": "14242731067787281675"
+        },
+        {
+          "file": "packages/threat-composer-app/src/containers/ThreatStatementList/index.tsx",
+          "hash": "4505069316234944117"
+        },
+        {
+          "file": "packages/threat-composer-app/src/containers/WorkspaceHome/index.tsx",
+          "hash": "11413994719495447738"
+        },
+        {
+          "file": "packages/threat-composer-app/src/containers/WorkspaceRoot/index.tsx",
+          "hash": "5862960921015257243"
+        },
+        {
+          "file": "packages/threat-composer-app/src/containers/WorkspaceSelector/index.tsx",
+          "hash": "10208596350171486610"
+        },
+        {
+          "file": "packages/threat-composer-app/src/hooks/useFeatures/index.tsx",
+          "hash": "15767078541904715781"
+        },
+        {
+          "file": "packages/threat-composer-app/src/hooks/useNavigationView/index.tsx",
+          "hash": "8178699666270454515"
+        },
+        {
+          "file": "packages/threat-composer-app/src/hooks/useNotifications/index.tsx",
+          "hash": "9923512095444464930"
+        },
+        {
+          "file": "packages/threat-composer-app/src/hooks/useOnPreview/index.ts",
+          "hash": "2427999764061544631"
+        },
+        {
+          "file": "packages/threat-composer-app/src/hooks/useSetActiveBreadCrumbs/index.ts",
+          "hash": "17102745284006469055"
+        },
+        {
+          "file": "packages/threat-composer-app/src/index.tsx",
+          "hash": "9623901875809980560"
+        },
+        {
+          "file": "packages/threat-composer-app/src/react-app-env.d.ts",
+          "hash": "1222743568402276481"
+        },
+        {
+          "file": "packages/threat-composer-app/src/reportWebVitals.ts",
+          "hash": "8147878110281721354"
+        },
+        {
+          "file": "packages/threat-composer-app/src/routes/index.tsx",
+          "hash": "7891771885005394207"
+        },
+        {
+          "file": "packages/threat-composer-app/src/routes/initialWorkspaceLoader.tsx",
+          "hash": "3844360656439403486"
+        },
+        {
+          "file": "packages/threat-composer-app/src/service-worker.ts",
+          "hash": "4336705204546766737"
+        },
+        {
+          "file": "packages/threat-composer-app/src/serviceWorkerRegistration.ts",
+          "hash": "5111041022362021033"
+        },
+        {
+          "file": "packages/threat-composer-app/src/setupTests.ts",
+          "hash": "8279138523003270906"
+        },
+        {
+          "file": "packages/threat-composer-app/src/utils/convertToDocx/components/Table.ts",
+          "hash": "3710152167765252128"
+        },
+        {
+          "file": "packages/threat-composer-app/src/utils/convertToDocx/components/TableHeaderCell.ts",
+          "hash": "17986448985146706239"
+        },
+        {
+          "file": "packages/threat-composer-app/src/utils/convertToDocx/config.ts",
+          "hash": "17595112045062692722"
+        },
+        {
+          "file": "packages/threat-composer-app/src/utils/convertToDocx/convertMarkdown/index.ts",
+          "hash": "9739193193489600842"
+        },
+        {
+          "file": "packages/threat-composer-app/src/utils/convertToDocx/convertMarkdown/mdast.ts",
+          "hash": "12365697664351753546"
+        },
+        {
+          "file": "packages/threat-composer-app/src/utils/convertToDocx/convertMarkdown/plugin.ts",
+          "hash": "15311462323454240846"
+        },
+        {
+          "file": "packages/threat-composer-app/src/utils/convertToDocx/convertMarkdown/transformer.ts",
+          "hash": "16864869784903168063"
+        },
+        {
+          "file": "packages/threat-composer-app/src/utils/convertToDocx/convertMarkdown/utils.ts",
+          "hash": "11405034221625685946"
+        },
+        {
+          "file": "packages/threat-composer-app/src/utils/convertToDocx/fallbackImage.ts",
+          "hash": "3197498127482050177"
+        },
+        {
+          "file": "packages/threat-composer-app/src/utils/convertToDocx/fetchImage.ts",
+          "hash": "15289918629295075774"
+        },
+        {
+          "file": "packages/threat-composer-app/src/utils/convertToDocx/getAnchorLink.ts",
+          "hash": "6547642703394601010"
+        },
+        {
+          "file": "packages/threat-composer-app/src/utils/convertToDocx/getApplicationInfo.ts",
+          "hash": "14313016997649615550"
+        },
+        {
+          "file": "packages/threat-composer-app/src/utils/convertToDocx/getApplicationName.ts",
+          "hash": "4130088402138062157"
+        },
+        {
+          "file": "packages/threat-composer-app/src/utils/convertToDocx/getArchitecture.ts",
+          "hash": "9504756583718631009"
+        },
+        {
+          "file": "packages/threat-composer-app/src/utils/convertToDocx/getAssets.ts",
+          "hash": "13492181119699088000"
+        },
+        {
+          "file": "packages/threat-composer-app/src/utils/convertToDocx/getAssumptions.ts",
+          "hash": "13202540654181306146"
+        },
+        {
+          "file": "packages/threat-composer-app/src/utils/convertToDocx/getBookmark.ts",
+          "hash": "4822554882000237200"
+        },
+        {
+          "file": "packages/threat-composer-app/src/utils/convertToDocx/getDataflow.ts",
+          "hash": "204401619590496913"
+        },
+        {
+          "file": "packages/threat-composer-app/src/utils/convertToDocx/getHeaderRow.ts",
+          "hash": "10552444859726494176"
+        },
+        {
+          "file": "packages/threat-composer-app/src/utils/convertToDocx/getImage.ts",
+          "hash": "8828075779928381551"
+        },
+        {
+          "file": "packages/threat-composer-app/src/utils/convertToDocx/getMitigations.ts",
+          "hash": "12408242425897104207"
+        },
+        {
+          "file": "packages/threat-composer-app/src/utils/convertToDocx/getThreats.ts",
+          "hash": "14392704086715072849"
+        },
+        {
+          "file": "packages/threat-composer-app/src/utils/convertToDocx/index.ts",
+          "hash": "15615071258323298946"
+        },
+        {
+          "file": "packages/threat-composer-app/src/utils/convertToDocx/renderComments.ts",
+          "hash": "5663681505227513728"
+        },
+        {
+          "file": "packages/threat-composer-app/src/utils/generateUrl/index.ts",
+          "hash": "13106845904677070512"
+        },
+        {
+          "file": "packages/threat-composer-app/src/utils/getComposerMode/index.tsx",
+          "hash": "9806932747201897338"
+        },
+        {
+          "file": "packages/threat-composer-app/src/utils/isMemoryRouterUsed/index.ts",
+          "hash": "11375278220979201191"
+        },
+        {
+          "file": "packages/threat-composer-app/tsconfig.dev.json",
+          "hash": "507478989239571559"
+        },
+        {
+          "file": "packages/threat-composer-app/tsconfig.json",
+          "hash": "6598756515435132011"
+        }
+      ],
+      "threat-composer-app-browser-extension": [
+        {
+          "file": "packages/threat-composer-app-browser-extension/.eslintrc.json",
+          "hash": "17191834316257460981"
+        },
+        {
+          "file": "packages/threat-composer-app-browser-extension/.gitattributes",
+          "hash": "14911796792888327247"
+        },
+        {
+          "file": "packages/threat-composer-app-browser-extension/.gitignore",
+          "hash": "8184157417907156357"
+        },
+        {
+          "file": "packages/threat-composer-app-browser-extension/.npmignore",
+          "hash": "523467557552840132"
+        },
+        {
+          "file": "packages/threat-composer-app-browser-extension/.projen/deps.json",
+          "hash": "3300202907763383162"
+        },
+        {
+          "file": "packages/threat-composer-app-browser-extension/.projen/files.json",
+          "hash": "9566248338789942090"
+        },
+        {
+          "file": "packages/threat-composer-app-browser-extension/.projen/tasks.json",
+          "hash": "10628932393689969940"
+        },
+        {
+          "file": "packages/threat-composer-app-browser-extension/.wxt/eslint-auto-imports.mjs",
+          "hash": "14463485545555027072"
+        },
+        {
+          "file": "packages/threat-composer-app-browser-extension/.wxt/eslintrc-auto-import.json",
+          "hash": "273210592634210550"
+        },
+        {
+          "file": "packages/threat-composer-app-browser-extension/.wxt/tsconfig.json",
+          "hash": "1148397543525647756"
+        },
+        {
+          "file": "packages/threat-composer-app-browser-extension/.wxt/types/globals.d.ts",
+          "hash": "9556249461581690705"
+        },
+        {
+          "file": "packages/threat-composer-app-browser-extension/.wxt/types/i18n.d.ts",
+          "hash": "14511692004957861985"
+        },
+        {
+          "file": "packages/threat-composer-app-browser-extension/.wxt/types/imports-module.d.ts",
+          "hash": "6444239386500677959"
+        },
+        {
+          "file": "packages/threat-composer-app-browser-extension/.wxt/types/imports.d.ts",
+          "hash": "6042938964936418957"
+        },
+        {
+          "file": "packages/threat-composer-app-browser-extension/.wxt/types/paths.d.ts",
+          "hash": "16919142185900382405"
+        },
+        {
+          "file": "packages/threat-composer-app-browser-extension/.wxt/wxt.d.ts",
+          "hash": "9037387284117768058"
+        },
+        {
+          "file": "packages/threat-composer-app-browser-extension/LICENSE",
+          "hash": "1742713622754055560"
+        },
+        {
+          "file": "packages/threat-composer-app-browser-extension/README.md",
+          "hash": "10865025973841431489"
+        },
+        {
+          "file": "packages/threat-composer-app-browser-extension/package.json",
+          "hash": "239337435760794992",
+          "deps": [
+            "npm:@types/jest",
+            "npm:@types/node",
+            "npm:@types/react",
+            "npm:@types/react-dom",
+            "npm:@typescript-eslint/eslint-plugin",
+            "npm:@typescript-eslint/parser",
+            "npm:eslint",
+            "npm:eslint-import-resolver-typescript",
+            "npm:eslint-plugin-import",
+            "npm:jest",
+            "npm:typescript",
+            "npm:@cloudscape-design/components",
+            "npm:react",
+            "npm:react-dom",
+            "npm:react-router-dom"
+          ]
+        },
+        {
+          "file": "packages/threat-composer-app-browser-extension/project.json",
+          "hash": "7326958513412755685"
+        },
+        {
+          "file": "packages/threat-composer-app-browser-extension/public/scriptInjectForCodeCatalyst.js",
+          "hash": "13798773816792141954"
+        },
+        {
+          "file": "packages/threat-composer-app-browser-extension/public/scriptInjectForThreatComposer.js",
+          "hash": "2019282965556511190"
+        },
+        {
+          "file": "packages/threat-composer-app-browser-extension/src/debugLogger.ts",
+          "hash": "414582241917301662"
+        },
+        {
+          "file": "packages/threat-composer-app-browser-extension/src/entrypoints/background.ts",
+          "hash": "14550289939979435393"
+        },
+        {
+          "file": "packages/threat-composer-app-browser-extension/src/entrypoints/content-script.ts",
+          "hash": "14527398296564983018"
+        },
+        {
+          "file": "packages/threat-composer-app-browser-extension/src/entrypoints/content-script/handlers/amazon-code-handler.ts",
+          "hash": "10996669871407091464"
+        },
+        {
+          "file": "packages/threat-composer-app-browser-extension/src/entrypoints/content-script/handlers/base-handler.ts",
+          "hash": "10229119227874605553"
+        },
+        {
+          "file": "packages/threat-composer-app-browser-extension/src/entrypoints/content-script/handlers/bitbucket-handler.ts",
+          "hash": "5091639013860347602"
+        },
+        {
+          "file": "packages/threat-composer-app-browser-extension/src/entrypoints/content-script/handlers/codecatalyst-handler.ts",
+          "hash": "243601171804616427"
+        },
+        {
+          "file": "packages/threat-composer-app-browser-extension/src/entrypoints/content-script/handlers/github-handler.ts",
+          "hash": "14307833406938933250"
+        },
+        {
+          "file": "packages/threat-composer-app-browser-extension/src/entrypoints/content-script/handlers/gitlab-handler.ts",
+          "hash": "4695184268382787244"
+        },
+        {
+          "file": "packages/threat-composer-app-browser-extension/src/entrypoints/content-script/handlers/spa-handler.ts",
+          "hash": "6486697234662110263"
+        },
+        {
+          "file": "packages/threat-composer-app-browser-extension/src/entrypoints/content-script/types.ts",
+          "hash": "1043734537968878865"
+        },
+        {
+          "file": "packages/threat-composer-app-browser-extension/src/entrypoints/content-script/utils/core-utils.ts",
+          "hash": "3364330055322403393"
+        },
+        {
+          "file": "packages/threat-composer-app-browser-extension/src/entrypoints/content-script/utils/raw-file-utils.ts",
+          "hash": "16743701749614997360"
+        },
+        {
+          "file": "packages/threat-composer-app-browser-extension/src/entrypoints/content-script/utils/spa-utils.ts",
+          "hash": "15133951084663109390"
+        },
+        {
+          "file": "packages/threat-composer-app-browser-extension/src/entrypoints/popup/App.tsx",
+          "hash": "703221910281962267"
+        },
+        {
+          "file": "packages/threat-composer-app-browser-extension/src/entrypoints/popup/ConfigDetailView.tsx",
+          "hash": "2945523292675130339"
+        },
+        {
+          "file": "packages/threat-composer-app-browser-extension/src/entrypoints/popup/ConfigView.tsx",
+          "hash": "11687053051938020787"
+        },
+        {
+          "file": "packages/threat-composer-app-browser-extension/src/entrypoints/popup/ExtensionConfigProvider.tsx",
+          "hash": "8918365371408747213"
+        },
+        {
+          "file": "packages/threat-composer-app-browser-extension/src/entrypoints/popup/RegexArrayForm.tsx",
+          "hash": "8825318199911703168"
+        },
+        {
+          "file": "packages/threat-composer-app-browser-extension/src/entrypoints/popup/config.ts",
+          "hash": "13934755477925185369"
+        },
+        {
+          "file": "packages/threat-composer-app-browser-extension/src/entrypoints/popup/index.html",
+          "hash": "15106263724707650795"
+        },
+        {
+          "file": "packages/threat-composer-app-browser-extension/src/entrypoints/popup/main.tsx",
+          "hash": "12861253570493354023"
+        },
+        {
+          "file": "packages/threat-composer-app-browser-extension/tsconfig.dev.json",
+          "hash": "14037169473920616292"
+        },
+        {
+          "file": "packages/threat-composer-app-browser-extension/tsconfig.json",
+          "hash": "3979271744894828205"
+        },
+        {
+          "file": "packages/threat-composer-app-browser-extension/wxt.config.ts",
+          "hash": "10220535954202154710"
+        }
+      ],
+      "@aws/threat-composer-app": [
+        {
+          "file": ".eslintignore",
+          "hash": "6292509585699817521"
+        },
+        {
+          "file": ".eslintrc.json",
+          "hash": "2446546229732240038"
+        },
+        {
+          "file": ".gitattributes",
+          "hash": "14911796792888327247"
+        },
+        {
+          "file": ".gitignore",
+          "hash": "2924802824653770930"
+        },
+        {
+          "file": ".npmignore",
+          "hash": "783765217951722841"
+        },
+        {
+          "file": ".projen/deps.json",
+          "hash": "11948648969220414792"
+        },
+        {
+          "file": ".projen/files.json",
+          "hash": "9566248338789942090"
+        },
+        {
+          "file": ".projen/tasks.json",
+          "hash": "12818949169258807149"
+        },
+        {
+          "file": "LICENSE",
+          "hash": "1742713622754055560"
+        },
+        {
+          "file": "README.md",
+          "hash": "8263095037995372836"
+        },
+        {
+          "file": "craco.config.js",
+          "hash": "6817907255419679108"
+        },
+        {
+          "file": "package.json",
+          "hash": "11103190752551496111"
+        },
+        {
+          "file": "project.json",
+          "hash": "720653731648205122"
+        },
+        {
+          "file": "public/404.html",
+          "hash": "9692330790090582910"
+        },
+        {
+          "file": "public/favicon.ico",
+          "hash": "18381878882279710433"
+        },
+        {
+          "file": "public/favicon.svg",
+          "hash": "1128886236315320620"
+        },
+        {
+          "file": "public/index.html",
+          "hash": "11366766405810172078"
+        },
+        {
+          "file": "public/manifest.json",
+          "hash": "12555955781384465347"
+        },
+        {
+          "file": "public/robots.txt",
+          "hash": "2790380794362165217"
+        },
+        {
+          "file": "src/assets/logo-dark.svg",
+          "hash": "13422035753905419916"
+        },
+        {
+          "file": "src/assets/logo-light.svg",
+          "hash": "12607376354665337438"
+        },
+        {
+          "file": "src/components/FullAppLayout/constants.ts",
+          "hash": "8235507118460453011"
+        },
+        {
+          "file": "src/components/FullAppLayout/index.tsx",
+          "hash": "11045681953992171940"
+        },
+        {
+          "file": "src/components/MarkdownEditorWithPrompt/index.tsx",
+          "hash": "4870568295486880454"
+        },
+        {
+          "file": "src/components/NavHeader/index.tsx",
+          "hash": "5695339533565776086"
+        },
+        {
+          "file": "src/components/Notifications/index.tsx",
+          "hash": "13162070101055096456"
+        },
+        {
+          "file": "src/components/StandaloneAppLayout/index.tsx",
+          "hash": "10744185997634806313"
+        },
+        {
+          "file": "src/config/appMode.ts",
+          "hash": "6113856097351844204"
+        },
+        {
+          "file": "src/config/routes.ts",
+          "hash": "9546269656033832670"
+        },
+        {
+          "file": "src/config/searchParams.ts",
+          "hash": "13431044494996894204"
+        },
+        {
+          "file": "src/containers/App/components/Full/index.tsx",
+          "hash": "15942928886390301753"
+        },
+        {
+          "file": "src/containers/App/components/Standalone/index.tsx",
+          "hash": "8831133223251290319"
+        },
+        {
+          "file": "src/containers/App/index.tsx",
+          "hash": "7469084875926824472"
+        },
+        {
+          "file": "src/containers/AppLayout/index.tsx",
+          "hash": "6482506373730791441"
+        },
+        {
+          "file": "src/containers/AppRoot/index.tsx",
+          "hash": "9890849901245271216"
+        },
+        {
+          "file": "src/containers/Application/index.tsx",
+          "hash": "5553837879145643063"
+        },
+        {
+          "file": "src/containers/Architecture/index.tsx",
+          "hash": "8125616765672681247"
+        },
+        {
+          "file": "src/containers/AssumptionList/index.tsx",
+          "hash": "13534146360496826961"
+        },
+        {
+          "file": "src/containers/BrainstormBoard/index.tsx",
+          "hash": "14139090393983419329"
+        },
+        {
+          "file": "src/containers/Dataflow/index.tsx",
+          "hash": "12066912711600378906"
+        },
+        {
+          "file": "src/containers/MitigationList/index.tsx",
+          "hash": "1789986793244858250"
+        },
+        {
+          "file": "src/containers/MitigationPack/index.tsx",
+          "hash": "15844869789905041791"
+        },
+        {
+          "file": "src/containers/MitigationPacks/index.tsx",
+          "hash": "2741182435432984240"
+        },
+        {
+          "file": "src/containers/ThreatModelPreview/index.tsx",
+          "hash": "9973257964942612056"
+        },
+        {
+          "file": "src/containers/ThreatModelReport/index.tsx",
+          "hash": "8160978352753914690"
+        },
+        {
+          "file": "src/containers/ThreatPack/index.tsx",
+          "hash": "2542797980375013955"
+        },
+        {
+          "file": "src/containers/ThreatPacks/index.tsx",
+          "hash": "4828762104880630266"
+        },
+        {
+          "file": "src/containers/ThreatStatementEditor/index.tsx",
+          "hash": "14242731067787281675"
+        },
+        {
+          "file": "src/containers/ThreatStatementList/index.tsx",
+          "hash": "4505069316234944117"
+        },
+        {
+          "file": "src/containers/WorkspaceHome/index.tsx",
+          "hash": "11413994719495447738"
+        },
+        {
+          "file": "src/containers/WorkspaceRoot/index.tsx",
+          "hash": "5862960921015257243"
+        },
+        {
+          "file": "src/containers/WorkspaceSelector/index.tsx",
+          "hash": "10208596350171486610"
+        },
+        {
+          "file": "src/hooks/useFeatures/index.tsx",
+          "hash": "15767078541904715781"
+        },
+        {
+          "file": "src/hooks/useNavigationView/index.tsx",
+          "hash": "8178699666270454515"
+        },
+        {
+          "file": "src/hooks/useNotifications/index.tsx",
+          "hash": "9923512095444464930"
+        },
+        {
+          "file": "src/hooks/useOnPreview/index.ts",
+          "hash": "2427999764061544631"
+        },
+        {
+          "file": "src/hooks/useSetActiveBreadCrumbs/index.ts",
+          "hash": "17102745284006469055"
+        },
+        {
+          "file": "src/index.tsx",
+          "hash": "9623901875809980560"
+        },
+        {
+          "file": "src/react-app-env.d.ts",
+          "hash": "1222743568402276481"
+        },
+        {
+          "file": "src/reportWebVitals.ts",
+          "hash": "8147878110281721354"
+        },
+        {
+          "file": "src/routes/index.tsx",
+          "hash": "7891771885005394207"
+        },
+        {
+          "file": "src/routes/initialWorkspaceLoader.tsx",
+          "hash": "3844360656439403486"
+        },
+        {
+          "file": "src/service-worker.ts",
+          "hash": "4336705204546766737"
+        },
+        {
+          "file": "src/serviceWorkerRegistration.ts",
+          "hash": "5111041022362021033"
+        },
+        {
+          "file": "src/setupTests.ts",
+          "hash": "8279138523003270906"
+        },
+        {
+          "file": "src/utils/convertToDocx/components/Table.ts",
+          "hash": "3710152167765252128"
+        },
+        {
+          "file": "src/utils/convertToDocx/components/TableHeaderCell.ts",
+          "hash": "17986448985146706239"
+        },
+        {
+          "file": "src/utils/convertToDocx/config.ts",
+          "hash": "17595112045062692722"
+        },
+        {
+          "file": "src/utils/convertToDocx/convertMarkdown/index.ts",
+          "hash": "9739193193489600842"
+        },
+        {
+          "file": "src/utils/convertToDocx/convertMarkdown/mdast.ts",
+          "hash": "12365697664351753546"
+        },
+        {
+          "file": "src/utils/convertToDocx/convertMarkdown/plugin.ts",
+          "hash": "15311462323454240846"
+        },
+        {
+          "file": "src/utils/convertToDocx/convertMarkdown/transformer.ts",
+          "hash": "16864869784903168063"
+        },
+        {
+          "file": "src/utils/convertToDocx/convertMarkdown/utils.ts",
+          "hash": "11405034221625685946"
+        },
+        {
+          "file": "src/utils/convertToDocx/fallbackImage.ts",
+          "hash": "3197498127482050177"
+        },
+        {
+          "file": "src/utils/convertToDocx/fetchImage.ts",
+          "hash": "15289918629295075774"
+        },
+        {
+          "file": "src/utils/convertToDocx/getAnchorLink.ts",
+          "hash": "6547642703394601010"
+        },
+        {
+          "file": "src/utils/convertToDocx/getApplicationInfo.ts",
+          "hash": "14313016997649615550"
+        },
+        {
+          "file": "src/utils/convertToDocx/getApplicationName.ts",
+          "hash": "4130088402138062157"
+        },
+        {
+          "file": "src/utils/convertToDocx/getArchitecture.ts",
+          "hash": "9504756583718631009"
+        },
+        {
+          "file": "src/utils/convertToDocx/getAssets.ts",
+          "hash": "13492181119699088000"
+        },
+        {
+          "file": "src/utils/convertToDocx/getAssumptions.ts",
+          "hash": "13202540654181306146"
+        },
+        {
+          "file": "src/utils/convertToDocx/getBookmark.ts",
+          "hash": "4822554882000237200"
+        },
+        {
+          "file": "src/utils/convertToDocx/getDataflow.ts",
+          "hash": "204401619590496913"
+        },
+        {
+          "file": "src/utils/convertToDocx/getHeaderRow.ts",
+          "hash": "10552444859726494176"
+        },
+        {
+          "file": "src/utils/convertToDocx/getImage.ts",
+          "hash": "8828075779928381551"
+        },
+        {
+          "file": "src/utils/convertToDocx/getMitigations.ts",
+          "hash": "12408242425897104207"
+        },
+        {
+          "file": "src/utils/convertToDocx/getThreats.ts",
+          "hash": "14392704086715072849"
+        },
+        {
+          "file": "src/utils/convertToDocx/index.ts",
+          "hash": "15615071258323298946"
+        },
+        {
+          "file": "src/utils/convertToDocx/renderComments.ts",
+          "hash": "5663681505227513728"
+        },
+        {
+          "file": "src/utils/generateUrl/index.ts",
+          "hash": "13106845904677070512"
+        },
+        {
+          "file": "src/utils/getComposerMode/index.tsx",
+          "hash": "9806932747201897338"
+        },
+        {
+          "file": "src/utils/isMemoryRouterUsed/index.ts",
+          "hash": "11375278220979201191"
+        },
+        {
+          "file": "threat-composer/.eslintrc.json",
+          "hash": "6940122353736347358"
+        },
+        {
+          "file": "threat-composer/.gitattributes",
+          "hash": "7112518129989126492"
+        },
+        {
+          "file": "threat-composer/.github/ISSUE_TEMPLATE/bug-report.yml",
+          "hash": "2709492836028790201"
+        },
+        {
+          "file": "threat-composer/.github/ISSUE_TEMPLATE/feature-request.yml",
+          "hash": "14813839398631308784"
+        },
+        {
+          "file": "threat-composer/.github/workflows/build.yml",
+          "hash": "16045279711130410659"
+        },
+        {
+          "file": "threat-composer/.github/workflows/deploy.yml",
+          "hash": "9305999680611676765"
+        },
+        {
+          "file": "threat-composer/.gitignore",
+          "hash": "3517105018783950739"
+        },
+        {
+          "file": "threat-composer/.gitlab-ci.yml.example",
+          "hash": "17852353010612146539"
+        },
+        {
+          "file": "threat-composer/.husky/pre-commit",
+          "hash": "16146247180865708137"
+        },
+        {
+          "file": "threat-composer/.husky/pre-push",
+          "hash": "11182892871896654156"
+        },
+        {
+          "file": "threat-composer/.npmignore",
+          "hash": "8280786180789924879"
+        },
+        {
+          "file": "threat-composer/.nxignore",
+          "hash": "9273699299889221317"
+        },
+        {
+          "file": "threat-composer/.prettierignore",
+          "hash": "11715103891521910621"
+        },
+        {
+          "file": "threat-composer/.prettierrc.json",
+          "hash": "3819844138542590413"
+        },
+        {
+          "file": "threat-composer/.projen/deps.json",
+          "hash": "11919407023606771668"
+        },
+        {
+          "file": "threat-composer/.projen/files.json",
+          "hash": "10473257657828832402"
+        },
+        {
+          "file": "threat-composer/.projen/tasks.json",
+          "hash": "9146037793898944851"
+        },
+        {
+          "file": "threat-composer/.projenrc.ts",
+          "hash": "14880531543398925197"
+        },
+        {
+          "file": "threat-composer/.releaserc",
+          "hash": "12018446340128478827"
+        },
+        {
+          "file": "threat-composer/.syncpackrc.json",
+          "hash": "3675773545870517246"
+        },
+        {
+          "file": "threat-composer/CODE_OF_CONDUCT.md",
+          "hash": "13801743054761335398"
+        },
+        {
+          "file": "threat-composer/CONTRIBUTING.md",
+          "hash": "12526826012792339889"
+        },
+        {
+          "file": "threat-composer/Dockerfile",
+          "hash": "10590819292902338531"
+        },
+        {
+          "file": "threat-composer/LICENSE",
+          "hash": "1742713622754055560"
+        },
+        {
+          "file": "threat-composer/LICENSE-THIRD-PARTY",
+          "hash": "17267120985951989128"
+        },
+        {
+          "file": "threat-composer/NOTICE",
+          "hash": "18050116031810284853"
+        },
+        {
+          "file": "threat-composer/README.md",
+          "hash": "17270679783386783331"
+        },
+        {
+          "file": "threat-composer/docs/AI-CLI-MCP.md",
+          "hash": "5588597467908368697"
+        },
+        {
+          "file": "threat-composer/docs/BROWSER-EXTENSION.md",
+          "hash": "7134310207788915997"
+        },
+        {
+          "file": "threat-composer/docs/DEVELOPMENT.md",
+          "hash": "10709090427811180313"
+        },
+        {
+          "file": "threat-composer/docs/VSCODE-EXTENSION.md",
+          "hash": "11617172569668952168"
+        },
+        {
+          "file": "threat-composer/docs/WEB-APP.md",
+          "hash": "5559691475490854238"
+        },
+        {
+          "file": "threat-composer/docs/screenshot-deployAll.png",
+          "hash": "605442779426712330"
+        },
+        {
+          "file": "threat-composer/docs/screenshot-deployDev.png",
+          "hash": "9767237232978374839"
+        },
+        {
+          "file": "threat-composer/docs/screenshot-full-mode.png",
+          "hash": "10882323612646554904"
+        },
+        {
+          "file": "threat-composer/docs/screenshot-import-modal.png",
+          "hash": "8248535911224790063"
+        },
+        {
+          "file": "threat-composer/docs/threat-composer.gif",
+          "hash": "1585851940397611429"
+        },
+        {
+          "file": "threat-composer/header.js",
+          "hash": "10931139711956144622"
+        },
+        {
+          "file": "threat-composer/nx.json",
+          "hash": "7879088533804129368"
+        },
+        {
+          "file": "threat-composer/package.json",
+          "hash": "16421753271870364581"
+        },
+        {
+          "file": "threat-composer/projenrc/ai-cli-mcp.ts",
+          "hash": "9130804732704074093"
+        },
+        {
+          "file": "threat-composer/projenrc/app.ts",
+          "hash": "16611565686486175073"
+        },
+        {
+          "file": "threat-composer/projenrc/browser-extension.ts",
+          "hash": "4420580025576699398"
+        },
+        {
+          "file": "threat-composer/projenrc/config/browsersList.ts",
+          "hash": "17092305590202569996"
+        },
+        {
+          "file": "threat-composer/projenrc/infra.ts",
+          "hash": "5549447709745293836"
+        },
+        {
+          "file": "threat-composer/projenrc/monorepo.ts",
+          "hash": "14067371226434813025"
+        },
+        {
+          "file": "threat-composer/projenrc/ui-components.ts",
+          "hash": "16786601184016344110"
+        },
+        {
+          "file": "threat-composer/projenrc/uv-python-project.ts",
+          "hash": "3083169420873775406"
+        },
+        {
+          "file": "threat-composer/schemas/threat-composer-v1.schema.json",
+          "hash": "8440130598435548690"
+        },
+        {
+          "file": "threat-composer/scripts/build.sh",
+          "hash": "10616484892067727986"
+        },
+        {
+          "file": "threat-composer/scripts/data/buildPacks.ts",
+          "hash": "4026144082358663994"
+        },
+        {
+          "file": "threat-composer/scripts/data/injectData.ts",
+          "hash": "2718773532965175728"
+        },
+        {
+          "file": "threat-composer/scripts/deployAll.sh",
+          "hash": "7750238668094139791"
+        },
+        {
+          "file": "threat-composer/scripts/deployDev.sh",
+          "hash": "15352170261490156961"
+        },
+        {
+          "file": "threat-composer/scripts/exportExamples.js",
+          "hash": "12923645972365268344"
+        },
+        {
+          "file": "threat-composer/scripts/generateSchema.ts",
+          "hash": "9223433694392380660"
+        },
+        {
+          "file": "threat-composer/tsconfig.dev.json",
+          "hash": "13621774377842247650"
+        },
+        {
+          "file": "threat-composer/tsconfig.json",
+          "hash": "2704042934052636729"
+        },
+        {
+          "file": "threat-composer/workshop-examples/README.md",
+          "hash": "12662595397310299267"
+        },
+        {
+          "file": "threat-composer/workshop-examples/ThreatComposerWorkspace-reinforce2024-ex1.tc.json",
+          "hash": "12874939354754683211"
+        },
+        {
+          "file": "threat-composer/workshop-examples/ThreatComposerWorkspace-reinforce2024-ex2.tc.json",
+          "hash": "18072739854017879208"
+        },
+        {
+          "file": "threat-composer/workshop-examples/ThreatComposerWorkspace-reinforce2024-ex3.3.tc.json",
+          "hash": "9797510632102778771"
+        },
+        {
+          "file": "threat-composer/workshop-examples/threat-modeling-for-builders-genai-edition-2025/ThreatComposer_Workshop_GenAI-ex1.tc.json",
+          "hash": "12840038095931646516"
+        },
+        {
+          "file": "threat-composer/workshop-examples/threat-modeling-for-builders-genai-edition-2025/ThreatComposer_Workshop_GenAI-ex2.tc.json",
+          "hash": "9413295117041428656"
+        },
+        {
+          "file": "threat-composer/workshop-examples/threat-modeling-for-builders-genai-edition-2025/ThreatComposer_Workshop_GenAI-ex3.tc.json",
+          "hash": "5689184069981994280"
+        },
+        {
+          "file": "threat-composer/workshop-examples/threat-modeling-for-builders-self-paced-elearning/ThreatModelingForBuilders-Exercise1.tc.json",
+          "hash": "9194428398961502479"
+        },
+        {
+          "file": "threat-composer/workshop-examples/threat-modeling-for-builders-self-paced-elearning/ThreatModelingForBuilders-Exercise2.tc.json",
+          "hash": "1118239996825197666"
+        },
+        {
+          "file": "threat-composer/workshop-examples/threat-modeling-for-builders-self-paced-elearning/ThreatModelingForBuilders-Exercise3.tc.json",
+          "hash": "4498298388905697552"
+        },
+        {
+          "file": "threat-composer/workshop-examples/threat-modeling-for-builders-self-paced-elearning/ThreatModelingForBuilders-Exercise4.tc.json",
+          "hash": "14422931475530966284"
+        },
+        {
+          "file": "threat-composer/yarn.lock",
+          "hash": "441903283950221033"
+        },
+        {
+          "file": "tsconfig.dev.json",
+          "hash": "507478989239571559"
+        },
+        {
+          "file": "tsconfig.json",
+          "hash": "6598756515435132011"
+        },
+        {
+          "file": "yarn.lock",
+          "hash": "15565689222746813503"
+        }
+      ],
+      "@aws/threat-composer": [
+        {
+          "file": "packages/threat-composer/.eslintrc.json",
+          "hash": "17191834316257460981"
+        },
+        {
+          "file": "packages/threat-composer/.gitattributes",
+          "hash": "697767935731470640"
+        },
+        {
+          "file": "packages/threat-composer/.gitignore",
+          "hash": "444569225668592545"
+        },
+        {
+          "file": "packages/threat-composer/.npmignore",
+          "hash": "14885363170390548666"
+        },
+        {
+          "file": "packages/threat-composer/.projen/deps.json",
+          "hash": "13712719310212368076"
+        },
+        {
+          "file": "packages/threat-composer/.projen/files.json",
+          "hash": "9025837728111130980"
+        },
+        {
+          "file": "packages/threat-composer/.projen/tasks.json",
+          "hash": "1685418896632495168"
+        },
+        {
+          "file": "packages/threat-composer/.storybook/main.ts",
+          "hash": "3798283017509201355"
+        },
+        {
+          "file": "packages/threat-composer/.storybook/preview.tsx",
+          "hash": "10620000002411290112"
+        },
+        {
+          "file": "packages/threat-composer/LICENSE",
+          "hash": "1742713622754055560"
+        },
+        {
+          "file": "packages/threat-composer/README.md",
+          "hash": "16026423488231268808"
+        },
+        {
+          "file": "packages/threat-composer/babel.config.json",
+          "hash": "2949504731039305054"
+        },
+        {
+          "file": "packages/threat-composer/jest.config.json",
+          "hash": "14722701177811219889"
+        },
+        {
+          "file": "packages/threat-composer/package.json",
+          "hash": "3004298365355014163",
+          "deps": [
+            "npm:@types/react",
+            "npm:@types/react-dom",
+            "npm:react",
+            "npm:react-dom",
+            "npm:@babel/preset-env",
+            "npm:@babel/preset-react",
+            "npm:@babel/preset-typescript",
+            "npm:@cloudscape-design/jest-preset",
+            "npm:@types/jest",
+            "npm:@types/node",
+            "npm:@types/uuid",
+            "npm:@typescript-eslint/eslint-plugin",
+            "npm:@typescript-eslint/parser",
+            "npm:eslint",
+            "npm:eslint-import-resolver-typescript",
+            "npm:eslint-plugin-import",
+            "npm:jest",
+            "npm:merge",
+            "npm:prop-types",
+            "npm:typescript",
+            "npm:@aws-northstar/ui",
+            "npm:@cloudscape-design/collection-hooks",
+            "npm:@cloudscape-design/components",
+            "npm:@cloudscape-design/design-tokens",
+            "npm:@cloudscape-design/global-styles",
+            "npm:@emotion/react",
+            "npm:react-markdown",
+            "npm:remark-frontmatter",
+            "npm:remark-gfm",
+            "npm:remark-parse",
+            "npm:remark-rehype",
+            "npm:unified",
+            "npm:uuid",
+            "npm:yaml"
+          ]
+        },
+        {
+          "file": "packages/threat-composer/project.json",
+          "hash": "1700668472083061120"
+        },
+        {
+          "file": "packages/threat-composer/src/assets/how-it-works.png",
+          "hash": "7275988933896034227"
+        },
+        {
+          "file": "packages/threat-composer/src/assets/switch-to-example-workspace.gif",
+          "hash": "17408435518861443426"
+        },
+        {
+          "file": "packages/threat-composer/src/assets/threat-statement-copy.png",
+          "hash": "3782631630137669881"
+        },
+        {
+          "file": "packages/threat-composer/src/assets/threat-statement-elements.png",
+          "hash": "10960291351996898236"
+        },
+        {
+          "file": "packages/threat-composer/src/assets/threat-statement-examples.png",
+          "hash": "12853751689963447567"
+        },
+        {
+          "file": "packages/threat-composer/src/assets/threat-statement-flow.png",
+          "hash": "17622695562006879838"
+        },
+        {
+          "file": "packages/threat-composer/src/components/application/ApplicationInfo/index.tsx",
+          "hash": "138778147538903728"
+        },
+        {
+          "file": "packages/threat-composer/src/components/architecture/ArchitectureInfo/index.tsx",
+          "hash": "5272928825903279064"
+        },
+        {
+          "file": "packages/threat-composer/src/components/assumptions/AssumptionCard/index.tsx",
+          "hash": "1476961905397515965"
+        },
+        {
+          "file": "packages/threat-composer/src/components/assumptions/AssumptionCreationCard/index.tsx",
+          "hash": "12781176067567816226"
+        },
+        {
+          "file": "packages/threat-composer/src/components/assumptions/AssumptionLink/index.tsx",
+          "hash": "8689372627739386784"
+        },
+        {
+          "file": "packages/threat-composer/src/components/assumptions/AssumptionLinkView/index.tsx",
+          "hash": "8445088674869018151"
+        },
+        {
+          "file": "packages/threat-composer/src/components/assumptions/AssumptionList/index.tsx",
+          "hash": "5941804296328664986"
+        },
+        {
+          "file": "packages/threat-composer/src/components/assumptions/AssumptionMitigationLink/index.tsx",
+          "hash": "16758184566331068657"
+        },
+        {
+          "file": "packages/threat-composer/src/components/assumptions/AssumptionThreatLink/index.tsx",
+          "hash": "8546959609591267994"
+        },
+        {
+          "file": "packages/threat-composer/src/components/brainstorm/BrainstormBoard/components/ColumnVisibilityToggles/index.tsx",
+          "hash": "4002613165914973974"
+        },
+        {
+          "file": "packages/threat-composer/src/components/brainstorm/BrainstormBoard/components/DiagramModal/index.tsx",
+          "hash": "11246759701376679928"
+        },
+        {
+          "file": "packages/threat-composer/src/components/brainstorm/BrainstormBoard/components/EntityCreationCard/index.tsx",
+          "hash": "15488354462192903422"
+        },
+        {
+          "file": "packages/threat-composer/src/components/brainstorm/BrainstormBoard/components/ItemColumn/columnConfig.ts",
+          "hash": "7613327488095841303"
+        },
+        {
+          "file": "packages/threat-composer/src/components/brainstorm/BrainstormBoard/components/ItemColumn/index.tsx",
+          "hash": "8378699793564830657"
+        },
+        {
+          "file": "packages/threat-composer/src/components/brainstorm/BrainstormBoard/index.tsx",
+          "hash": "8787253847342196284"
+        },
+        {
+          "file": "packages/threat-composer/src/components/brainstorm/index.ts",
+          "hash": "11814728921526958841"
+        },
+        {
+          "file": "packages/threat-composer/src/components/dataflow/DataflowInfo/index.tsx",
+          "hash": "12006185066910989021"
+        },
+        {
+          "file": "packages/threat-composer/src/components/generic/AssetSelector/index.tsx",
+          "hash": "12650353113175574516"
+        },
+        {
+          "file": "packages/threat-composer/src/components/generic/Autosuggest/index.tsx",
+          "hash": "4333504177821376939"
+        },
+        {
+          "file": "packages/threat-composer/src/components/generic/BaseDiagramInfo/index.tsx",
+          "hash": "4240477234265531250"
+        },
+        {
+          "file": "packages/threat-composer/src/components/generic/CommentsEdit/index.tsx",
+          "hash": "13118657723582106810"
+        },
+        {
+          "file": "packages/threat-composer/src/components/generic/ContentLayout/index.tsx",
+          "hash": "13125714360658503954"
+        },
+        {
+          "file": "packages/threat-composer/src/components/generic/CopyToClipboard/index.tsx",
+          "hash": "13586993662924013050"
+        },
+        {
+          "file": "packages/threat-composer/src/components/generic/DashboardNumber/index.tsx",
+          "hash": "9619364505360277120"
+        },
+        {
+          "file": "packages/threat-composer/src/components/generic/EntityMetadataEditor/index.tsx",
+          "hash": "7076674150234715598"
+        },
+        {
+          "file": "packages/threat-composer/src/components/generic/FileUpload/components/FileTokenLabel/index.tsx",
+          "hash": "17869674570087013981"
+        },
+        {
+          "file": "packages/threat-composer/src/components/generic/FileUpload/index.tsx",
+          "hash": "14609375186393170009"
+        },
+        {
+          "file": "packages/threat-composer/src/components/generic/FileUpload/utils/getDisplayLastModified/index.ts",
+          "hash": "2050250266047579464"
+        },
+        {
+          "file": "packages/threat-composer/src/components/generic/FileUpload/utils/getDisplaySize/index.ts",
+          "hash": "13734311078814842645"
+        },
+        {
+          "file": "packages/threat-composer/src/components/generic/GenericCard/components/Tags/index.tsx",
+          "hash": "17594105449301039730"
+        },
+        {
+          "file": "packages/threat-composer/src/components/generic/GenericCard/index.tsx",
+          "hash": "7211812489456627180"
+        },
+        {
+          "file": "packages/threat-composer/src/components/generic/GenericCard/types.ts",
+          "hash": "16341678303572865523"
+        },
+        {
+          "file": "packages/threat-composer/src/components/generic/GenericEntityCreationCard/index.tsx",
+          "hash": "2521768092459942869"
+        },
+        {
+          "file": "packages/threat-composer/src/components/generic/GenericListMoreActions/index.tsx",
+          "hash": "404471032327840483"
+        },
+        {
+          "file": "packages/threat-composer/src/components/generic/GroupableItemCard/index.tsx",
+          "hash": "16663890563847195097"
+        },
+        {
+          "file": "packages/threat-composer/src/components/generic/ImageEdit/index.tsx",
+          "hash": "5761527129764302390"
+        },
+        {
+          "file": "packages/threat-composer/src/components/generic/Input/index.tsx",
+          "hash": "1160738789640974782"
+        },
+        {
+          "file": "packages/threat-composer/src/components/generic/LevelSelector/index.tsx",
+          "hash": "13426869737647733773"
+        },
+        {
+          "file": "packages/threat-composer/src/components/generic/LinkedEntityFilter/index.tsx",
+          "hash": "4101575263489997529"
+        },
+        {
+          "file": "packages/threat-composer/src/components/generic/Loading/index.tsx",
+          "hash": "256958033254771898"
+        },
+        {
+          "file": "packages/threat-composer/src/components/generic/MarkdownEditor/index.tsx",
+          "hash": "2339118176335698713"
+        },
+        {
+          "file": "packages/threat-composer/src/components/generic/MarkdownViewer/index.tsx",
+          "hash": "7196401357127665358"
+        },
+        {
+          "file": "packages/threat-composer/src/components/generic/Modal/index.tsx",
+          "hash": "14353422567543628541"
+        },
+        {
+          "file": "packages/threat-composer/src/components/generic/STRIDESelector/index.tsx",
+          "hash": "1015318781792865997"
+        },
+        {
+          "file": "packages/threat-composer/src/components/generic/StatusBadge/index.tsx",
+          "hash": "10845896825937933276"
+        },
+        {
+          "file": "packages/threat-composer/src/components/generic/StatusSelector/index.tsx",
+          "hash": "7639285680163899863"
+        },
+        {
+          "file": "packages/threat-composer/src/components/generic/Table/components/EmptyState/index.tsx",
+          "hash": "9871146071426631634"
+        },
+        {
+          "file": "packages/threat-composer/src/components/generic/Table/components/FullDataTable/index.tsx",
+          "hash": "14695780373783612482"
+        },
+        {
+          "file": "packages/threat-composer/src/components/generic/Table/components/Header/index.tsx",
+          "hash": "7890921027276627153"
+        },
+        {
+          "file": "packages/threat-composer/src/components/generic/Table/config.ts",
+          "hash": "4491463650667618635"
+        },
+        {
+          "file": "packages/threat-composer/src/components/generic/Table/index.tsx",
+          "hash": "1084585548134735286"
+        },
+        {
+          "file": "packages/threat-composer/src/components/generic/Table/types.ts",
+          "hash": "17260491921864997487"
+        },
+        {
+          "file": "packages/threat-composer/src/components/generic/Table/utils/getPageCount/index.ts",
+          "hash": "11399550969866786436"
+        },
+        {
+          "file": "packages/threat-composer/src/components/generic/TagSelector/index.tsx",
+          "hash": "17892381494982160221"
+        },
+        {
+          "file": "packages/threat-composer/src/components/generic/Textarea/index.tsx",
+          "hash": "8431032044206829463"
+        },
+        {
+          "file": "packages/threat-composer/src/components/generic/ThemeProvider/index.tsx",
+          "hash": "16720672076551490690"
+        },
+        {
+          "file": "packages/threat-composer/src/components/generic/ThemeToggle/index.tsx",
+          "hash": "12110029082815549083"
+        },
+        {
+          "file": "packages/threat-composer/src/components/generic/Tooltip/index.tsx",
+          "hash": "6780245499651077645"
+        },
+        {
+          "file": "packages/threat-composer/src/components/generic/WindowExporter/index.tsx",
+          "hash": "689145251776612941"
+        },
+        {
+          "file": "packages/threat-composer/src/components/global/InfoModal/components/Copy/index.tsx",
+          "hash": "9801723139503313730"
+        },
+        {
+          "file": "packages/threat-composer/src/components/global/InfoModal/components/Editor/index.tsx",
+          "hash": "2433739275762732263"
+        },
+        {
+          "file": "packages/threat-composer/src/components/global/InfoModal/components/Features/index.tsx",
+          "hash": "4256353558104549094"
+        },
+        {
+          "file": "packages/threat-composer/src/components/global/InfoModal/components/FullExample/index.tsx",
+          "hash": "5691947261316547778"
+        },
+        {
+          "file": "packages/threat-composer/src/components/global/InfoModal/components/GetStarted/index.tsx",
+          "hash": "12231514228889777917"
+        },
+        {
+          "file": "packages/threat-composer/src/components/global/InfoModal/components/InfoModalBase/index.tsx",
+          "hash": "7031898811098728048"
+        },
+        {
+          "file": "packages/threat-composer/src/components/global/InfoModal/components/Intro/index.tsx",
+          "hash": "11654579458925571978"
+        },
+        {
+          "file": "packages/threat-composer/src/components/global/InfoModal/components/MoreFeatures/index.tsx",
+          "hash": "3214491431000287874"
+        },
+        {
+          "file": "packages/threat-composer/src/components/global/InfoModal/components/Selector/index.tsx",
+          "hash": "11708611830450721643"
+        },
+        {
+          "file": "packages/threat-composer/src/components/global/InfoModal/index.stories.tsx",
+          "hash": "7177843269425375253"
+        },
+        {
+          "file": "packages/threat-composer/src/components/global/InfoModal/index.tsx",
+          "hash": "4647409408625640746"
+        },
+        {
+          "file": "packages/threat-composer/src/components/global/InfoModal/styles.ts",
+          "hash": "13028390665135977251"
+        },
+        {
+          "file": "packages/threat-composer/src/components/index.ts",
+          "hash": "2657717991129505395"
+        },
+        {
+          "file": "packages/threat-composer/src/components/mitigations/MitigationCard/index.tsx",
+          "hash": "751805601682852554"
+        },
+        {
+          "file": "packages/threat-composer/src/components/mitigations/MitigationCreationCard/index.tsx",
+          "hash": "10008734257807061400"
+        },
+        {
+          "file": "packages/threat-composer/src/components/mitigations/MitigationLink/index.tsx",
+          "hash": "14732249058644066282"
+        },
+        {
+          "file": "packages/threat-composer/src/components/mitigations/MitigationLinkView/index.tsx",
+          "hash": "3857449119957865163"
+        },
+        {
+          "file": "packages/threat-composer/src/components/mitigations/MitigationList/index.tsx",
+          "hash": "16189662583572744900"
+        },
+        {
+          "file": "packages/threat-composer/src/components/mitigations/MitigationThreatLink/index.tsx",
+          "hash": "5604649338126277797"
+        },
+        {
+          "file": "packages/threat-composer/src/components/report/ThreatModel/components/ThreatModelView/index.tsx",
+          "hash": "2059209674398696908"
+        },
+        {
+          "file": "packages/threat-composer/src/components/report/ThreatModel/index.tsx",
+          "hash": "11916396401313710904"
+        },
+        {
+          "file": "packages/threat-composer/src/components/threats/BrainstormList/index.tsx",
+          "hash": "9491572741029566692"
+        },
+        {
+          "file": "packages/threat-composer/src/components/threats/CustomTemplate/index.tsx",
+          "hash": "1683642738987667952"
+        },
+        {
+          "file": "packages/threat-composer/src/components/threats/EditorImpactedAssets/index.tsx",
+          "hash": "3974052225940972209"
+        },
+        {
+          "file": "packages/threat-composer/src/components/threats/EditorImpactedGoal/index.tsx",
+          "hash": "4448090995541455979"
+        },
+        {
+          "file": "packages/threat-composer/src/components/threats/EditorLayout/index.tsx",
+          "hash": "3732750536480794579"
+        },
+        {
+          "file": "packages/threat-composer/src/components/threats/EditorLayout/styles.ts",
+          "hash": "9648553654643356498"
+        },
+        {
+          "file": "packages/threat-composer/src/components/threats/EditorPrerequisites/index.tsx",
+          "hash": "8847845454681905145"
+        },
+        {
+          "file": "packages/threat-composer/src/components/threats/EditorThreatAction/index.tsx",
+          "hash": "11045263374807471377"
+        },
+        {
+          "file": "packages/threat-composer/src/components/threats/EditorThreatImpact/index.tsx",
+          "hash": "15596482573878039633"
+        },
+        {
+          "file": "packages/threat-composer/src/components/threats/EditorThreatSource/index.tsx",
+          "hash": "18273360720093486087"
+        },
+        {
+          "file": "packages/threat-composer/src/components/threats/ExampleList/index.tsx",
+          "hash": "17268941495738153962"
+        },
+        {
+          "file": "packages/threat-composer/src/components/threats/FieldSelector/components/ExpandableToken/index.tsx",
+          "hash": "12331641026669927088"
+        },
+        {
+          "file": "packages/threat-composer/src/components/threats/FieldSelector/components/Token/index.tsx",
+          "hash": "7981339419169736708"
+        },
+        {
+          "file": "packages/threat-composer/src/components/threats/FieldSelector/index.tsx",
+          "hash": "16219779935895880343"
+        },
+        {
+          "file": "packages/threat-composer/src/components/threats/FinalStatement/index.tsx",
+          "hash": "7365936027752939347"
+        },
+        {
+          "file": "packages/threat-composer/src/components/threats/FullExamples/index.tsx",
+          "hash": "16659706980512606153"
+        },
+        {
+          "file": "packages/threat-composer/src/components/threats/Header/index.tsx",
+          "hash": "18304875082614969595"
+        },
+        {
+          "file": "packages/threat-composer/src/components/threats/MetadataEditor/index.tsx",
+          "hash": "15584017807947233487"
+        },
+        {
+          "file": "packages/threat-composer/src/components/threats/Metrics/components/Status/index.tsx",
+          "hash": "5018176164478185130"
+        },
+        {
+          "file": "packages/threat-composer/src/components/threats/Metrics/index.tsx",
+          "hash": "12299432682080204767"
+        },
+        {
+          "file": "packages/threat-composer/src/components/threats/MitigationCandidates/index.tsx",
+          "hash": "17137572360357059282"
+        },
+        {
+          "file": "packages/threat-composer/src/components/threats/PreviousInputList/index.tsx",
+          "hash": "618846694113419500"
+        },
+        {
+          "file": "packages/threat-composer/src/components/threats/PriorityBadge/index.tsx",
+          "hash": "10743830678065079261"
+        },
+        {
+          "file": "packages/threat-composer/src/components/threats/PriorityEdit/index.tsx",
+          "hash": "15358193153008379138"
+        },
+        {
+          "file": "packages/threat-composer/src/components/threats/SortBy/index.tsx",
+          "hash": "3559284174707870566"
+        },
+        {
+          "file": "packages/threat-composer/src/components/threats/Suggestions/index.tsx",
+          "hash": "9078585163222454017"
+        },
+        {
+          "file": "packages/threat-composer/src/components/threats/ThreatLinkView/index.tsx",
+          "hash": "2807127164209836234"
+        },
+        {
+          "file": "packages/threat-composer/src/components/threats/ThreatStatementCard/index.tsx",
+          "hash": "13838650806050116063"
+        },
+        {
+          "file": "packages/threat-composer/src/components/threats/ThreatStatementEditor/index.tsx",
+          "hash": "4673215718385154744"
+        },
+        {
+          "file": "packages/threat-composer/src/components/threats/ThreatStatementEditor/types.ts",
+          "hash": "2831114846060663410"
+        },
+        {
+          "file": "packages/threat-composer/src/components/threats/ThreatStatementList/index.tsx",
+          "hash": "15552724128546463389"
+        },
+        {
+          "file": "packages/threat-composer/src/components/workspaces/EditWorkspace/index.tsx",
+          "hash": "4399330087456613930"
+        },
+        {
+          "file": "packages/threat-composer/src/components/workspaces/FileImport/index.tsx",
+          "hash": "10012512506213235995"
+        },
+        {
+          "file": "packages/threat-composer/src/components/workspaces/LandingPage/index.tsx",
+          "hash": "17662610429243769617"
+        },
+        {
+          "file": "packages/threat-composer/src/components/workspaces/MitigationPack/components/GeneralInfo/index.tsx",
+          "hash": "17025046186858135363"
+        },
+        {
+          "file": "packages/threat-composer/src/components/workspaces/MitigationPack/index.tsx",
+          "hash": "12031538593674625119"
+        },
+        {
+          "file": "packages/threat-composer/src/components/workspaces/MitigationPacks/index.tsx",
+          "hash": "17460588530532433574"
+        },
+        {
+          "file": "packages/threat-composer/src/components/workspaces/ThreatPack/components/GeneralInfo/index.tsx",
+          "hash": "16356868038569578492"
+        },
+        {
+          "file": "packages/threat-composer/src/components/workspaces/ThreatPack/index.tsx",
+          "hash": "2289055594381005998"
+        },
+        {
+          "file": "packages/threat-composer/src/components/workspaces/ThreatPacks/index.tsx",
+          "hash": "16488078304393333210"
+        },
+        {
+          "file": "packages/threat-composer/src/components/workspaces/WorkspaceHome/index.tsx",
+          "hash": "10820529929749233030"
+        },
+        {
+          "file": "packages/threat-composer/src/components/workspaces/WorkspaceInsights/components/MitigationStatus/index.tsx",
+          "hash": "14945622369373791834"
+        },
+        {
+          "file": "packages/threat-composer/src/components/workspaces/WorkspaceInsights/components/Overview/index.tsx",
+          "hash": "174556395328307601"
+        },
+        {
+          "file": "packages/threat-composer/src/components/workspaces/WorkspaceInsights/components/STRIDEAllocation/index.tsx",
+          "hash": "3974209000358426389"
+        },
+        {
+          "file": "packages/threat-composer/src/components/workspaces/WorkspaceInsights/components/ThreatGrammar/index.tsx",
+          "hash": "8446812267823217635"
+        },
+        {
+          "file": "packages/threat-composer/src/components/workspaces/WorkspaceInsights/components/ThreatPrioritization/index.tsx",
+          "hash": "12888532599508698316"
+        },
+        {
+          "file": "packages/threat-composer/src/components/workspaces/WorkspaceInsights/components/ThreatStatus/index.tsx",
+          "hash": "7291205513449016692"
+        },
+        {
+          "file": "packages/threat-composer/src/components/workspaces/WorkspaceInsights/hooks/useMitigationListLinkClicked/index.tsx",
+          "hash": "2488774900969572659"
+        },
+        {
+          "file": "packages/threat-composer/src/components/workspaces/WorkspaceInsights/hooks/useThreatListLinkClicked/index.tsx",
+          "hash": "13136001001491549909"
+        },
+        {
+          "file": "packages/threat-composer/src/components/workspaces/WorkspaceInsights/index.tsx",
+          "hash": "8330348366462110493"
+        },
+        {
+          "file": "packages/threat-composer/src/components/workspaces/WorkspaceInsights/types.tsx",
+          "hash": "2719596592421206459"
+        },
+        {
+          "file": "packages/threat-composer/src/components/workspaces/WorkspaceSelector/index.tsx",
+          "hash": "10963030919739412138"
+        },
+        {
+          "file": "packages/threat-composer/src/configs/appMode.ts",
+          "hash": "8958787435729672934"
+        },
+        {
+          "file": "packages/threat-composer/src/configs/constants.ts",
+          "hash": "9237119933243000746"
+        },
+        {
+          "file": "packages/threat-composer/src/configs/content.ts",
+          "hash": "13527508282490180921"
+        },
+        {
+          "file": "packages/threat-composer/src/configs/events.ts",
+          "hash": "3868999651862240305"
+        },
+        {
+          "file": "packages/threat-composer/src/configs/export.ts",
+          "hash": "16295490482353510308"
+        },
+        {
+          "file": "packages/threat-composer/src/configs/features.ts",
+          "hash": "10931139711956144622"
+        },
+        {
+          "file": "packages/threat-composer/src/configs/index.ts",
+          "hash": "14819975658632764971"
+        },
+        {
+          "file": "packages/threat-composer/src/configs/localStorageKeys.ts",
+          "hash": "9352967757872462193"
+        },
+        {
+          "file": "packages/threat-composer/src/configs/metadata.ts",
+          "hash": "13926140152407515998"
+        },
+        {
+          "file": "packages/threat-composer/src/configs/options.ts",
+          "hash": "15464572085964557837"
+        },
+        {
+          "file": "packages/threat-composer/src/configs/status.ts",
+          "hash": "12361680974387648302"
+        },
+        {
+          "file": "packages/threat-composer/src/configs/styles.ts",
+          "hash": "6299554978762747441"
+        },
+        {
+          "file": "packages/threat-composer/src/containers/Application/index.stories.tsx",
+          "hash": "9130531071222382409"
+        },
+        {
+          "file": "packages/threat-composer/src/containers/Application/index.tsx",
+          "hash": "13462815470400490345"
+        },
+        {
+          "file": "packages/threat-composer/src/containers/Architecture/index.stories.tsx",
+          "hash": "17032574288439781184"
+        },
+        {
+          "file": "packages/threat-composer/src/containers/Architecture/index.tsx",
+          "hash": "3770837456042818332"
+        },
+        {
+          "file": "packages/threat-composer/src/containers/AssumptionList/index.stories.tsx",
+          "hash": "18130537617987062887"
+        },
+        {
+          "file": "packages/threat-composer/src/containers/AssumptionList/index.tsx",
+          "hash": "11397611490797454366"
+        },
+        {
+          "file": "packages/threat-composer/src/containers/Dataflow/index.stories.tsx",
+          "hash": "12716199184630086707"
+        },
+        {
+          "file": "packages/threat-composer/src/containers/Dataflow/index.tsx",
+          "hash": "11885162728660718919"
+        },
+        {
+          "file": "packages/threat-composer/src/containers/LandingPage/index.stories.tsx",
+          "hash": "2293664414220806726"
+        },
+        {
+          "file": "packages/threat-composer/src/containers/LandingPage/index.tsx",
+          "hash": "17678827186927928418"
+        },
+        {
+          "file": "packages/threat-composer/src/containers/MitigationList/index.stories.tsx",
+          "hash": "12916311077336948190"
+        },
+        {
+          "file": "packages/threat-composer/src/containers/MitigationList/index.tsx",
+          "hash": "8654842439037677672"
+        },
+        {
+          "file": "packages/threat-composer/src/containers/MitigationPack/index.stories.tsx",
+          "hash": "2162106809964841627"
+        },
+        {
+          "file": "packages/threat-composer/src/containers/MitigationPack/index.tsx",
+          "hash": "13418576931443016527"
+        },
+        {
+          "file": "packages/threat-composer/src/containers/MitigationPacks/index.stories.tsx",
+          "hash": "13748159663412381422"
+        },
+        {
+          "file": "packages/threat-composer/src/containers/MitigationPacks/index.tsx",
+          "hash": "18319441755162464715"
+        },
+        {
+          "file": "packages/threat-composer/src/containers/ThreatEditor/index.stories.tsx",
+          "hash": "13030876699114331124"
+        },
+        {
+          "file": "packages/threat-composer/src/containers/ThreatEditor/index.tsx",
+          "hash": "5232377822514360393"
+        },
+        {
+          "file": "packages/threat-composer/src/containers/ThreatList/index.stories.tsx",
+          "hash": "15328388013280258048"
+        },
+        {
+          "file": "packages/threat-composer/src/containers/ThreatList/index.tsx",
+          "hash": "18065611902301741819"
+        },
+        {
+          "file": "packages/threat-composer/src/containers/ThreatModel/index.stories.tsx",
+          "hash": "16168997995231383989"
+        },
+        {
+          "file": "packages/threat-composer/src/containers/ThreatModel/index.tsx",
+          "hash": "2164515357064986571"
+        },
+        {
+          "file": "packages/threat-composer/src/containers/ThreatPack/index.stories.tsx",
+          "hash": "5019507557775897103"
+        },
+        {
+          "file": "packages/threat-composer/src/containers/ThreatPack/index.tsx",
+          "hash": "15826004473608687511"
+        },
+        {
+          "file": "packages/threat-composer/src/containers/ThreatPacks/index.stories.tsx",
+          "hash": "3947406834935657010"
+        },
+        {
+          "file": "packages/threat-composer/src/containers/ThreatPacks/index.tsx",
+          "hash": "5281353965172989596"
+        },
+        {
+          "file": "packages/threat-composer/src/containers/ThreatStatementGenerator/index.stories.tsx",
+          "hash": "10476975820710038782"
+        },
+        {
+          "file": "packages/threat-composer/src/containers/ThreatStatementGenerator/index.tsx",
+          "hash": "15110117529510373044"
+        },
+        {
+          "file": "packages/threat-composer/src/containers/WorkspaceHome/index.stories.tsx",
+          "hash": "4380999225983470762"
+        },
+        {
+          "file": "packages/threat-composer/src/containers/WorkspaceHome/index.tsx",
+          "hash": "15318298925228156976"
+        },
+        {
+          "file": "packages/threat-composer/src/containers/WorkspaceInsights/index.stories.tsx",
+          "hash": "16426245410876929845"
+        },
+        {
+          "file": "packages/threat-composer/src/containers/WorkspaceInsights/index.tsx",
+          "hash": "4936767099121243842"
+        },
+        {
+          "file": "packages/threat-composer/src/containers/WorkspaceSelector/index.stories.tsx",
+          "hash": "1107579198550209878"
+        },
+        {
+          "file": "packages/threat-composer/src/containers/WorkspaceSelector/index.tsx",
+          "hash": "7463224960648970772"
+        },
+        {
+          "file": "packages/threat-composer/src/containers/index.ts",
+          "hash": "7342501062264710236"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/ApplicationContext/components/LocalStateContextProvider/index.tsx",
+          "hash": "7091473681206203323"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/ApplicationContext/components/LocalStorageContextProvider/index.tsx",
+          "hash": "7418159286871626257"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/ApplicationContext/context.ts",
+          "hash": "11947488467934457434"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/ApplicationContext/index.tsx",
+          "hash": "3935163418893192469"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/ApplicationContext/types.ts",
+          "hash": "5092221338355513"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/ArchitectureContext/components/LocalStateContextProvider/index.tsx",
+          "hash": "13356633980560680513"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/ArchitectureContext/components/LocalStorageContextProvider/index.tsx",
+          "hash": "641982242014972812"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/ArchitectureContext/context.ts",
+          "hash": "14023386478193662856"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/ArchitectureContext/index.tsx",
+          "hash": "10249536014986172869"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/ArchitectureContext/types.ts",
+          "hash": "11207974751095232149"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/AssumptionLinksContext/components/LocalStateContextProvider/index.tsx",
+          "hash": "15301191072237472345"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/AssumptionLinksContext/components/LocalStorageContextProvider/index.tsx",
+          "hash": "10347982048110624052"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/AssumptionLinksContext/context.ts",
+          "hash": "30264488796830541"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/AssumptionLinksContext/index.tsx",
+          "hash": "3959695975929931247"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/AssumptionLinksContext/types.ts",
+          "hash": "1490168474693404605"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/AssumptionLinksContext/useAssumptionLinks.ts",
+          "hash": "11767265405302225311"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/AssumptionsContext/components/LocalStateContextProvider/index.tsx",
+          "hash": "9641538944243205890"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/AssumptionsContext/components/LocalStorageContextProvider/index.tsx",
+          "hash": "3939418560403355107"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/AssumptionsContext/context.ts",
+          "hash": "7265415371563777787"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/AssumptionsContext/index.tsx",
+          "hash": "13509395980079373845"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/AssumptionsContext/types.ts",
+          "hash": "15991754622326368339"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/AssumptionsContext/useAssumptions.ts",
+          "hash": "10739064336933997841"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/BrainstormContext/components/LocalStateContextProvider/index.tsx",
+          "hash": "10051580683502145814"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/BrainstormContext/components/LocalStorageContextProvider/index.tsx",
+          "hash": "8318916261960306270"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/BrainstormContext/context.ts",
+          "hash": "16677530277945282122"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/BrainstormContext/index.tsx",
+          "hash": "4455594243654360541"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/BrainstormContext/types.ts",
+          "hash": "174557383071579742"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/BrainstormContext/useBrainstorm.ts",
+          "hash": "2926430472237722718"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/ContextAggregator/index.tsx",
+          "hash": "10410513071748799449"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/CrossWorkspaceContext/components/LocalStorageContextProvider/index.tsx",
+          "hash": "1607308736968816892"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/CrossWorkspaceContext/context.ts",
+          "hash": "2392753136003553200"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/CrossWorkspaceContext/index.tsx",
+          "hash": "12760632541253427490"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/DataflowContext/components/LocalStateContextProvider/index.tsx",
+          "hash": "8021463196120604378"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/DataflowContext/components/LocalStorageContextProvider/index.tsx",
+          "hash": "13802632003287687813"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/DataflowContext/context.ts",
+          "hash": "9147542104849729556"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/DataflowContext/index.tsx",
+          "hash": "12398699318423108402"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/DataflowContext/types.ts",
+          "hash": "14981228671795329789"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/GlobalSetupContext/context.ts",
+          "hash": "5887394218177779186"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/GlobalSetupContext/index.tsx",
+          "hash": "7161298261510841150"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/MitigationLinksContext/components/LocalStateContextProvider/index.tsx",
+          "hash": "1271001673273352845"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/MitigationLinksContext/components/LocalStorageContextProvider/index.tsx",
+          "hash": "15924330092988401395"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/MitigationLinksContext/context.ts",
+          "hash": "12640280885363500314"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/MitigationLinksContext/index.tsx",
+          "hash": "16059886963072249416"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/MitigationLinksContext/types.ts",
+          "hash": "17698817925280618513"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/MitigationLinksContext/useMitigationLinks.ts",
+          "hash": "2381539811012668105"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/MitigationPacksContext/context.ts",
+          "hash": "10578461750166997099"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/MitigationPacksContext/index.tsx",
+          "hash": "2129402398733286270"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/MitigationPacksContext/types.ts",
+          "hash": "14643185328883218631"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/MitigationsContext/components/LocalStateContextProvider/index.tsx",
+          "hash": "13956956098754894358"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/MitigationsContext/components/LocalStorageContextProvider/index.tsx",
+          "hash": "13693978922142101928"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/MitigationsContext/context.ts",
+          "hash": "2494671486841654708"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/MitigationsContext/index.tsx",
+          "hash": "13891912038477252584"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/MitigationsContext/types.ts",
+          "hash": "10317232307938354679"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/MitigationsContext/useMitigations.ts",
+          "hash": "3936939813131532395"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/ThreatPacksContext/context.ts",
+          "hash": "4722925387101344846"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/ThreatPacksContext/index.tsx",
+          "hash": "16120077690853683101"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/ThreatPacksContext/types.ts",
+          "hash": "9833982395580864529"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/ThreatsContext/components/LocalStateContextProvider/index.tsx",
+          "hash": "18249595473276116458"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/ThreatsContext/components/LocalStorageContextProvider/index.tsx",
+          "hash": "6329109668580748290"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/ThreatsContext/context.ts",
+          "hash": "12926582902171571145"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/ThreatsContext/hooks/useThreatExamples/index.ts",
+          "hash": "7934720720371289219"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/ThreatsContext/hooks/useThreats/index.ts",
+          "hash": "16071359483944987173"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/ThreatsContext/index.tsx",
+          "hash": "12264338515085326635"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/ThreatsContext/types.ts",
+          "hash": "12276365432650681703"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/ThreatsContext/utils.ts",
+          "hash": "16797653366364330429"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/WorkspaceContextAggregator/index.tsx",
+          "hash": "11091269696499339213"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/WorkspaceExamplesContext/context.ts",
+          "hash": "10046997147282144953"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/WorkspaceExamplesContext/index.tsx",
+          "hash": "946171511000284367"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/WorkspacesContext/components/LocalStateContextProvider/index.tsx",
+          "hash": "7404170017773752570"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/WorkspacesContext/components/LocalStorageContextProvider/index.tsx",
+          "hash": "3609484020349226539"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/WorkspacesContext/context.ts",
+          "hash": "6334824901681443277"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/WorkspacesContext/index.tsx",
+          "hash": "17083841612983044435"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/WorkspacesContext/types.ts",
+          "hash": "2793039455388489229"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/WorkspacesContext/useCurrentWorkspace.ts",
+          "hash": "14910297315993931257"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/WorkspacesContext/useWorkspaces.ts",
+          "hash": "2108912632654008361"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/constants.ts",
+          "hash": "5395196175936778766"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/index.ts",
+          "hash": "209758208686647726"
+        },
+        {
+          "file": "packages/threat-composer/src/contexts/types.ts",
+          "hash": "6392351781035274537"
+        },
+        {
+          "file": "packages/threat-composer/src/customTypes/appMode.ts",
+          "hash": "16400280629303323047"
+        },
+        {
+          "file": "packages/threat-composer/src/customTypes/application.ts",
+          "hash": "6356053452991912678"
+        },
+        {
+          "file": "packages/threat-composer/src/customTypes/architecture.ts",
+          "hash": "13313721549077970447"
+        },
+        {
+          "file": "packages/threat-composer/src/customTypes/assumptions.ts",
+          "hash": "5489860807578722066"
+        },
+        {
+          "file": "packages/threat-composer/src/customTypes/brainstorm.ts",
+          "hash": "15869617291970301140"
+        },
+        {
+          "file": "packages/threat-composer/src/customTypes/components.ts",
+          "hash": "5501025388269278568"
+        },
+        {
+          "file": "packages/threat-composer/src/customTypes/composerMode.ts",
+          "hash": "396872046759865608"
+        },
+        {
+          "file": "packages/threat-composer/src/customTypes/dataExchange.ts",
+          "hash": "10339523565210703908"
+        },
+        {
+          "file": "packages/threat-composer/src/customTypes/dataflow.ts",
+          "hash": "5387368999033749923"
+        },
+        {
+          "file": "packages/threat-composer/src/customTypes/entities.ts",
+          "hash": "16098798556289845310"
+        },
+        {
+          "file": "packages/threat-composer/src/customTypes/events.ts",
+          "hash": "16194664904145945877"
+        },
+        {
+          "file": "packages/threat-composer/src/customTypes/index.ts",
+          "hash": "2426425971380387137"
+        },
+        {
+          "file": "packages/threat-composer/src/customTypes/mitigations.ts",
+          "hash": "3116081687821035113"
+        },
+        {
+          "file": "packages/threat-composer/src/customTypes/referencePacks.ts",
+          "hash": "16459251086307391362"
+        },
+        {
+          "file": "packages/threat-composer/src/customTypes/threatFieldTypes.ts",
+          "hash": "11907869271218095574"
+        },
+        {
+          "file": "packages/threat-composer/src/customTypes/threats.ts",
+          "hash": "11071187431888996990"
+        },
+        {
+          "file": "packages/threat-composer/src/customTypes/windowAPI.ts",
+          "hash": "8206220153463693903"
+        },
+        {
+          "file": "packages/threat-composer/src/customTypes/workspaces.ts",
+          "hash": "7590976881917053972"
+        },
+        {
+          "file": "packages/threat-composer/src/data/index.ts",
+          "hash": "1776018104894637385"
+        },
+        {
+          "file": "packages/threat-composer/src/data/mitigationPacks/GenAIChatbot.metadata.json",
+          "hash": "14826162699345689425"
+        },
+        {
+          "file": "packages/threat-composer/src/data/mitigationPacks/generated/GenAIChatbot.json",
+          "hash": "16650566060339274571"
+        },
+        {
+          "file": "packages/threat-composer/src/data/mitigationPacks/mitigationPacks.ts",
+          "hash": "6282934056894537874"
+        },
+        {
+          "file": "packages/threat-composer/src/data/status/mitigationStatus.json",
+          "hash": "14826897967500016184"
+        },
+        {
+          "file": "packages/threat-composer/src/data/status/threatStatus.json",
+          "hash": "7241225778227722070"
+        },
+        {
+          "file": "packages/threat-composer/src/data/stride.ts",
+          "hash": "8029040642382962896"
+        },
+        {
+          "file": "packages/threat-composer/src/data/threatFieldData.ts",
+          "hash": "4718926152848373318"
+        },
+        {
+          "file": "packages/threat-composer/src/data/threatPacks/GenAIChatbot.metadata.json",
+          "hash": "13467963417495662918"
+        },
+        {
+          "file": "packages/threat-composer/src/data/threatPacks/generated/GenAIChatbot.json",
+          "hash": "5570068086132555716"
+        },
+        {
+          "file": "packages/threat-composer/src/data/threatPacks/threatPacks.ts",
+          "hash": "11131318487231395287"
+        },
+        {
+          "file": "packages/threat-composer/src/data/threatStatementExamples.json",
+          "hash": "12351683976343963018"
+        },
+        {
+          "file": "packages/threat-composer/src/data/threatStatementFormat.ts",
+          "hash": "1738746715869733948"
+        },
+        {
+          "file": "packages/threat-composer/src/data/threatsCategories.ts",
+          "hash": "13887041405104899912"
+        },
+        {
+          "file": "packages/threat-composer/src/data/workspaceExamples/GenAIChatbot.tc.json",
+          "hash": "110773319105292724"
+        },
+        {
+          "file": "packages/threat-composer/src/data/workspaceExamples/ThreatComposer.tc.json",
+          "hash": "11619769356199266191"
+        },
+        {
+          "file": "packages/threat-composer/src/data/workspaceExamples/workspaceExamples.ts",
+          "hash": "18035867696612198911"
+        },
+        {
+          "file": "packages/threat-composer/src/hooks/index.ts",
+          "hash": "3983798796139216550"
+        },
+        {
+          "file": "packages/threat-composer/src/hooks/useCloneWorkspace/index.ts",
+          "hash": "408369993706963903"
+        },
+        {
+          "file": "packages/threat-composer/src/hooks/useContentValidation/index.tsx",
+          "hash": "8449000823315543440"
+        },
+        {
+          "file": "packages/threat-composer/src/hooks/useEditMetadata/index.ts",
+          "hash": "1992812314551856970"
+        },
+        {
+          "file": "packages/threat-composer/src/hooks/useExportImport/index.ts",
+          "hash": "14722626776407994971"
+        },
+        {
+          "file": "packages/threat-composer/src/hooks/useMediaQuery/index.ts",
+          "hash": "4429955336688620512"
+        },
+        {
+          "file": "packages/threat-composer/src/hooks/useRemoveData/index.ts",
+          "hash": "9053639765508127462"
+        },
+        {
+          "file": "packages/threat-composer/src/hooks/useWorkspaceStorage/index.ts",
+          "hash": "3597372337114786134"
+        },
+        {
+          "file": "packages/threat-composer/src/index.ts",
+          "hash": "2932250644225364244"
+        },
+        {
+          "file": "packages/threat-composer/src/migrations/ThreatsMigration/index.tsx",
+          "hash": "2505221184751687126"
+        },
+        {
+          "file": "packages/threat-composer/src/migrations/WorkspacesMigration/index.tsx",
+          "hash": "908037679210212640"
+        },
+        {
+          "file": "packages/threat-composer/src/styles/expandablePanelHeader.ts",
+          "hash": "1833975462340821673"
+        },
+        {
+          "file": "packages/threat-composer/src/styles/image.ts",
+          "hash": "16079625088411714233"
+        },
+        {
+          "file": "packages/threat-composer/src/styles/print.ts",
+          "hash": "5219907715191360943"
+        },
+        {
+          "file": "packages/threat-composer/src/styles/svg.ts",
+          "hash": "7915224599822379361"
+        },
+        {
+          "file": "packages/threat-composer/src/types.ts",
+          "hash": "12266399686039720751"
+        },
+        {
+          "file": "packages/threat-composer/src/utils/EventController/index.ts",
+          "hash": "17530617238743900737"
+        },
+        {
+          "file": "packages/threat-composer/src/utils/calculateFieldCombination/index.test.ts",
+          "hash": "8357685386868608619"
+        },
+        {
+          "file": "packages/threat-composer/src/utils/calculateFieldCombination/index.ts",
+          "hash": "2527768487551163778"
+        },
+        {
+          "file": "packages/threat-composer/src/utils/cleanupThreatData/index.ts",
+          "hash": "11197305311899456242"
+        },
+        {
+          "file": "packages/threat-composer/src/utils/convertToMarkdown/index.tsx",
+          "hash": "4123449267856213923"
+        },
+        {
+          "file": "packages/threat-composer/src/utils/convertToMarkdown/utils/getApplicationInfo/index.tsx",
+          "hash": "929741094119887542"
+        },
+        {
+          "file": "packages/threat-composer/src/utils/convertToMarkdown/utils/getApplicationName/index.tsx",
+          "hash": "8873851775522654898"
+        },
+        {
+          "file": "packages/threat-composer/src/utils/convertToMarkdown/utils/getArchitecture/index.ts",
+          "hash": "5265799169725574159"
+        },
+        {
+          "file": "packages/threat-composer/src/utils/convertToMarkdown/utils/getAssets/index.ts",
+          "hash": "16698329649812647080"
+        },
+        {
+          "file": "packages/threat-composer/src/utils/convertToMarkdown/utils/getAssumptions/index.ts",
+          "hash": "967272783727597399"
+        },
+        {
+          "file": "packages/threat-composer/src/utils/convertToMarkdown/utils/getDataFlow/index.ts",
+          "hash": "18137446625645605510"
+        },
+        {
+          "file": "packages/threat-composer/src/utils/convertToMarkdown/utils/getMitigations/index.ts",
+          "hash": "9424508272209193886"
+        },
+        {
+          "file": "packages/threat-composer/src/utils/convertToMarkdown/utils/getThreats/index.ts",
+          "hash": "15051858996767765606"
+        },
+        {
+          "file": "packages/threat-composer/src/utils/convertToYaml/index.ts",
+          "hash": "12499858445342397267"
+        },
+        {
+          "file": "packages/threat-composer/src/utils/correctIndefiniteArticle/index.ts",
+          "hash": "6798297334229428251"
+        },
+        {
+          "file": "packages/threat-composer/src/utils/downloadContent/index.ts",
+          "hash": "9489962590524067189"
+        },
+        {
+          "file": "packages/threat-composer/src/utils/entityTag/index.tsx",
+          "hash": "8113849206820918554"
+        },
+        {
+          "file": "packages/threat-composer/src/utils/escapeMarkdown/index.ts",
+          "hash": "17977284158876043240"
+        },
+        {
+          "file": "packages/threat-composer/src/utils/filterThreatsByMetadata/index.tsx",
+          "hash": "2657673942355473127"
+        },
+        {
+          "file": "packages/threat-composer/src/utils/getBase64/index.ts",
+          "hash": "3754414233537957855"
+        },
+        {
+          "file": "packages/threat-composer/src/utils/getExportFileName/index.ts",
+          "hash": "11121273524596957585"
+        },
+        {
+          "file": "packages/threat-composer/src/utils/getFieldContentByToken/index.ts",
+          "hash": "16457557228219178302"
+        },
+        {
+          "file": "packages/threat-composer/src/utils/getMetadata/index.ts",
+          "hash": "2951253184680054859"
+        },
+        {
+          "file": "packages/threat-composer/src/utils/getMobileMediaQuery/index.tsx",
+          "hash": "430943658209529338"
+        },
+        {
+          "file": "packages/threat-composer/src/utils/getNewAssumption/index.tsx",
+          "hash": "4551363375628500979"
+        },
+        {
+          "file": "packages/threat-composer/src/utils/getNewMitigation/index.tsx",
+          "hash": "6675325437107941980"
+        },
+        {
+          "file": "packages/threat-composer/src/utils/getNewThreatStatement/index.tsx",
+          "hash": "5361903091612755958"
+        },
+        {
+          "file": "packages/threat-composer/src/utils/getRecommandedEditor/index.ts",
+          "hash": "5660434008989409229"
+        },
+        {
+          "file": "packages/threat-composer/src/utils/getThreatFromThreatPacksThreat/index.ts",
+          "hash": "15618902302768185894"
+        },
+        {
+          "file": "packages/threat-composer/src/utils/hasContent/index.ts",
+          "hash": "3048836266487726499"
+        },
+        {
+          "file": "packages/threat-composer/src/utils/index.ts",
+          "hash": "2983310528552708539"
+        },
+        {
+          "file": "packages/threat-composer/src/utils/intersectArrays/index.ts",
+          "hash": "7799510956925978457"
+        },
+        {
+          "file": "packages/threat-composer/src/utils/isWorkspaceExample/index.ts",
+          "hash": "15861918084949026302"
+        },
+        {
+          "file": "packages/threat-composer/src/utils/matchThreatPackMitigationCandidate/index.ts",
+          "hash": "15971853557855558581"
+        },
+        {
+          "file": "packages/threat-composer/src/utils/parseTableCellContent/index.ts",
+          "hash": "10244377078793199546"
+        },
+        {
+          "file": "packages/threat-composer/src/utils/parseThreatStatement/index.test.ts",
+          "hash": "7956147487754876355"
+        },
+        {
+          "file": "packages/threat-composer/src/utils/parseThreatStatement/index.ts",
+          "hash": "15190583287094901036"
+        },
+        {
+          "file": "packages/threat-composer/src/utils/recalculateThreatData/index.ts",
+          "hash": "2086032082060677566"
+        },
+        {
+          "file": "packages/threat-composer/src/utils/removeLocalStorageKey/index.ts",
+          "hash": "15412795694378114268"
+        },
+        {
+          "file": "packages/threat-composer/src/utils/renderArrayField/index.ts",
+          "hash": "2408658140109025402"
+        },
+        {
+          "file": "packages/threat-composer/src/utils/renderThreatStatement/index.ts",
+          "hash": "9937670533411323283"
+        },
+        {
+          "file": "packages/threat-composer/src/utils/sanitizeHtml/index.test.ts",
+          "hash": "8914736875737199790"
+        },
+        {
+          "file": "packages/threat-composer/src/utils/sanitizeHtml/index.ts",
+          "hash": "13391677766112453812"
+        },
+        {
+          "file": "packages/threat-composer/src/utils/scrollToTop/index.ts",
+          "hash": "15556479486568431780"
+        },
+        {
+          "file": "packages/threat-composer/src/utils/setLocalStorageKey/index.ts",
+          "hash": "12829520209933732259"
+        },
+        {
+          "file": "packages/threat-composer/src/utils/shuffle/index.ts",
+          "hash": "6634127118937927475"
+        },
+        {
+          "file": "packages/threat-composer/src/utils/standardizeNumericId/index.ts",
+          "hash": "5198682892596000346"
+        },
+        {
+          "file": "packages/threat-composer/src/utils/validateData/index.ts",
+          "hash": "9179401374079196489"
+        },
+        {
+          "file": "packages/threat-composer/tsconfig.dev.json",
+          "hash": "1586206944085127358"
+        },
+        {
+          "file": "packages/threat-composer/tsconfig.json",
+          "hash": "12751840701602985596"
+        }
+      ],
+      "threat-composer-infra": [
+        {
+          "file": "packages/threat-composer-infra/.eslintrc.json",
+          "hash": "17191834316257460981"
+        },
+        {
+          "file": "packages/threat-composer-infra/.gitattributes",
+          "hash": "4445832844056276960"
+        },
+        {
+          "file": "packages/threat-composer-infra/.gitignore",
+          "hash": "2861002459646478117"
+        },
+        {
+          "file": "packages/threat-composer-infra/.npmignore",
+          "hash": "11590772665078148069"
+        },
+        {
+          "file": "packages/threat-composer-infra/.projen/deps.json",
+          "hash": "17140810157558352379"
+        },
+        {
+          "file": "packages/threat-composer-infra/.projen/files.json",
+          "hash": "10191823501522946411"
+        },
+        {
+          "file": "packages/threat-composer-infra/.projen/tasks.json",
+          "hash": "7125233023493253465"
+        },
+        {
+          "file": "packages/threat-composer-infra/LICENSE",
+          "hash": "1742713622754055560"
+        },
+        {
+          "file": "packages/threat-composer-infra/README.md",
+          "hash": "12553435600026995431"
+        },
+        {
+          "file": "packages/threat-composer-infra/cdk.context.json",
+          "hash": "7123806527465736814"
+        },
+        {
+          "file": "packages/threat-composer-infra/cdk.json",
+          "hash": "1057357795624437012"
+        },
+        {
+          "file": "packages/threat-composer-infra/package.json",
+          "hash": "1002616089228621295",
+          "deps": [
+            "npm:@types/jest",
+            "npm:@types/node",
+            "npm:@typescript-eslint/eslint-plugin",
+            "npm:@typescript-eslint/parser",
+            "npm:eslint",
+            "npm:eslint-import-resolver-typescript",
+            "npm:eslint-plugin-import",
+            "npm:jest",
+            "npm:ts-node",
+            "npm:typescript",
+            "npm:aws-cdk-lib",
+            "npm:cdk-nag"
+          ]
+        },
+        {
+          "file": "packages/threat-composer-infra/project.json",
+          "hash": "18030562577747201518"
+        },
+        {
+          "file": "packages/threat-composer-infra/src/application-stack.ts",
+          "hash": "12287624571504626753"
+        },
+        {
+          "file": "packages/threat-composer-infra/src/application-stage.ts",
+          "hash": "15765828590337094279"
+        },
+        {
+          "file": "packages/threat-composer-infra/src/constants.ts",
+          "hash": "17327723310929410286"
+        },
+        {
+          "file": "packages/threat-composer-infra/src/pipeline-stack.ts",
+          "hash": "18183357316437861049"
+        },
+        {
+          "file": "packages/threat-composer-infra/src/pipeline.ts",
+          "hash": "12040218902753663003"
+        },
+        {
+          "file": "packages/threat-composer-infra/test/__snapshots__/pipeline.test.ts.snap",
+          "hash": "16594980096534556933"
+        },
+        {
+          "file": "packages/threat-composer-infra/test/pipeline.test.ts",
+          "hash": "10011546327962296796"
+        },
+        {
+          "file": "packages/threat-composer-infra/tsconfig.dev.json",
+          "hash": "9644336145356857264"
+        },
+        {
+          "file": "packages/threat-composer-infra/tsconfig.json",
+          "hash": "14144579812717016134"
+        }
+      ],
+      "threat-composer-ai": [
+        {
+          "file": "packages/threat-composer-ai/.gitattributes",
+          "hash": "15908670973817038666"
+        },
+        {
+          "file": "packages/threat-composer-ai/.gitignore",
+          "hash": "13721391813823887786"
+        },
+        {
+          "file": "packages/threat-composer-ai/.projen/deps.json",
+          "hash": "3990228519917610736"
+        },
+        {
+          "file": "packages/threat-composer-ai/.projen/files.json",
+          "hash": "3102891082625484744"
+        },
+        {
+          "file": "packages/threat-composer-ai/.projen/tasks.json",
+          "hash": "9627100938710168034"
+        },
+        {
+          "file": "packages/threat-composer-ai/LICENSE",
+          "hash": "1742713622754055560"
+        },
+        {
+          "file": "packages/threat-composer-ai/README.md",
+          "hash": "10284466151163518190"
+        },
+        {
+          "file": "packages/threat-composer-ai/project.json",
+          "hash": "5173368887460621697"
+        },
+        {
+          "file": "packages/threat-composer-ai/pyproject.toml",
+          "hash": "1019442740873398357"
+        },
+        {
+          "file": "packages/threat-composer-ai/pytest.ini",
+          "hash": "18246879883263313410"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/__init__.py",
+          "hash": "6673683385638506533"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/__main__.py",
+          "hash": "4139161367509023092"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/agents/__init__.py",
+          "hash": "5435080222152059768"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/agents/application_info.py",
+          "hash": "15829158696585073040"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/agents/architecture.py",
+          "hash": "15250602623806462262"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/agents/architecture_diagram.py",
+          "hash": "18307138164381525736"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/agents/common.py",
+          "hash": "15619905402319250019"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/agents/dataflow.py",
+          "hash": "13843736141857203705"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/agents/dataflow_diagram.py",
+          "hash": "8003818579456018292"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/agents/mitigations.py",
+          "hash": "14496801423874719904"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/agents/threat_model.py",
+          "hash": "508483123530947094"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/agents/threats.py",
+          "hash": "17872789451929682684"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/assets/dfd/dfd-human_actor.png",
+          "hash": "18169763666839669104"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/assets/dfd/dfd-human_actor.svg",
+          "hash": "4778684748443102718"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/cli/__init__.py",
+          "hash": "4043721344551830972"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/cli/main.py",
+          "hash": "4317752633137253910"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/config/__init__.py",
+          "hash": "12364818383050063310"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/config/app_config.py",
+          "hash": "15906892429991982574"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/config/export.py",
+          "hash": "3601926361009646807"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/config/global_config.py",
+          "hash": "3863103179897831027"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/core/__init__.py",
+          "hash": "12334848065762607295"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/core/runner.py",
+          "hash": "5612824117747598125"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/core/session_discovery.py",
+          "hash": "14982228492563765693"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/core/workflow_lock.py",
+          "hash": "3362138786213474167"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/logging/__init__.py",
+          "hash": "8701521719307734081"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/logging/rich_logger.py",
+          "hash": "10833261883566528248"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/logging/strands_handler.py",
+          "hash": "3495313514306584424"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/mcp/__init__.py",
+          "hash": "17797587246395945468"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/mcp/server.py",
+          "hash": "1569129848450381625"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/mcp/tools.py",
+          "hash": "12463091428435014948"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/mcp_server.py",
+          "hash": "1318387220800132830"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/models/__init__.py",
+          "hash": "14018059715048181793"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/models/threat_composer_v1.py",
+          "hash": "17619153258225251826"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/tools/__init__.py",
+          "hash": "13314526981661362950"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/tools/path_validation.py",
+          "hash": "8108419401916357520"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/tools/threat_composer_assemble_tc_v1_model.py",
+          "hash": "7845548714746831369"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/tools/threat_composer_dia_architecture.py",
+          "hash": "16146704171395566018"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/tools/threat_composer_dia_common.py",
+          "hash": "13323112046093110318"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/tools/threat_composer_dia_dfd.py",
+          "hash": "12849030350749232334"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/tools/threat_composer_dia_examples.py",
+          "hash": "2261290488377963223"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/tools/threat_composer_dia_list_icons.py",
+          "hash": "11575855582583042590"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/tools/threat_composer_dia_nodes.py",
+          "hash": "2200636247029593543"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/tools/threat_composer_generate_uuid4.py",
+          "hash": "18359771295323791242"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/tools/threat_composer_list_workdir_files_gitignore_filtered.py",
+          "hash": "8090478081475546896"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/tools/threat_composer_svg_to_data_url.py",
+          "hash": "2077936773681857651"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/tools/threat_composer_validate_tc_v1_schema.py",
+          "hash": "15373287209184982331"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/tools/threat_composer_workdir_file_read.py",
+          "hash": "2425840707638791202"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/tools/threat_composer_workdir_file_write.py",
+          "hash": "10194386413171287997"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/utils/__init__.py",
+          "hash": "6872462454487707080"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/utils/datetime_utils.py",
+          "hash": "5910073276976756099"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/utils/path_formatter.py",
+          "hash": "990079457528290142"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/utils/process_management.py",
+          "hash": "14941547889753208689"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/utils/relative_path_helper.py",
+          "hash": "8706406025988681389"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/utils/tool_helpers.py",
+          "hash": "3246723919796616626"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/validation/__init__.py",
+          "hash": "7555499465602799374"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/validation/aws_validator.py",
+          "hash": "15320992583676418183"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/validation/code_scanner.py",
+          "hash": "12203763988240312880"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/validation/graphviz_validator.py",
+          "hash": "17394271512125923675"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/workflows/__init__.py",
+          "hash": "17895735808562863386"
+        },
+        {
+          "file": "packages/threat-composer-ai/src/threat_composer_ai/workflows/baseline_threat_modeling.py",
+          "hash": "1912419842630385407"
+        },
+        {
+          "file": "packages/threat-composer-ai/tests/models/test_threat_composer_v1.py",
+          "hash": "5334924145301399073"
+        },
+        {
+          "file": "packages/threat-composer-ai/tests/tools/test_file_read_security.py",
+          "hash": "8680426463407986686"
+        },
+        {
+          "file": "packages/threat-composer-ai/tests/tools/test_file_write_security.py",
+          "hash": "3508509895665880897"
+        },
+        {
+          "file": "packages/threat-composer-ai/tests/tools/test_svg_deduplication.py",
+          "hash": "2131678055805008189"
+        },
+        {
+          "file": "packages/threat-composer-ai/tests/validation/__init__.py",
+          "hash": "542651126300712061"
+        },
+        {
+          "file": "packages/threat-composer-ai/tests/validation/test_code_scanner.py",
+          "hash": "13703852390578380009"
+        },
+        {
+          "file": "packages/threat-composer-ai/uv.lock",
+          "hash": "3594202827783720960"
+        }
+      ]
+    },
+    "nonProjectFiles": []
+  },
+  "externalNodesHash": "5995915270153651336"
+}

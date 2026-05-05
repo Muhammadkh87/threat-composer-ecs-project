@@ -1,0 +1,22 @@
+{
+  "name": "threat-composer-app-browser-extension",
+  "root": "packages/threat-composer-app-browser-extension",
+  "sourceRoot": "packages/threat-composer-app-browser-extension/src",
+  "projectType": "library",
+  "targets": {
+    "install": {
+      "executor": "nx:run-commands",
+      "options": {
+        "commands": ["echo Installing threat-composer-app-browser-extension dependencies..."],
+        "parallel": false
+      }
+    },
+    "build": {
+      "executor": "nx:run-commands",
+      "options": {
+        "commands": ["echo Build threat-composer-app-browser-extension..."],
+        "parallel": false
+      }
+    }
+  }
+}

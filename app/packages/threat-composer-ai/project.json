@@ -1,0 +1,21 @@
+{
+  "name": "threat-composer-ai",
+  "root": "packages/threat-composer-ai",
+  "sourceRoot": "packages/threat-composer-ai/src",
+  "projectType": "library",
+  "targets": {
+    "install": {
+      "executor": "nx:run-commands",
+      "options": {
+        "commands": ["echo Installing threat-composer-ai dependencies..."],
+        "parallel": false
+      }
+    },
+    "build": {
+      "executor": "nx:run-commands",
+      "options": {
+        "commands": ["echo Build threat-composer-ai..."]
+      }
+    }
+  }
+}
