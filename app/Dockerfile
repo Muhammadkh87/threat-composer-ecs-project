@@ -6,7 +6,7 @@ WORKDIR /app
 COPY . .
 
 RUN yarn install --frozen-lockfile
-RUN yarn build
+RUN yarn build && ls -R
 
 # -------- Stage 2: runtime --------
 FROM node:20-alpine
