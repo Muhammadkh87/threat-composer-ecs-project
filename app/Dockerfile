@@ -5,7 +5,7 @@ WORKDIR /app
 
 COPY . .
 
-RUN yarn install
+RUN yarn install --ignore-scripts
 
 EXPOSE 3000
 
