@@ -1,17 +1,6 @@
 ## Production-Grade ECS Deployment – Threat Composer
 ## Overview
 
-This project demonstrates a production-style deployment of the AWS Threat Composer application on Amazon ECS Fargate, using a fully automated DevOps pipeline.
-
-It follows best practices including:
-
-Infrastructure as Code (Terraform)
-Containerisation (Docker)
-CI/CD automation (GitHub Actions)
-Secure and scalable cloud architecture
-
-The goal of this project is to simulate a real-world DevOps workflow from code commit → deployment.
-
 ## Architecture Diagram
 ```mermaid
 flowchart LR
@@ -36,7 +25,17 @@ flowchart LR
     VPC --> ECS
 ```
 
-![live app](./docs/screenshot2.jpg)
+This project demonstrates a production-style deployment of the AWS Threat Composer application on Amazon ECS Fargate, using a fully automated DevOps pipeline.
+
+It follows best practices including:
+
+Infrastructure as Code (Terraform)
+Containerisation (Docker)
+CI/CD automation (GitHub Actions)
+Secure and scalable cloud architecture
+
+The goal of this project is to simulate a real-world DevOps workflow from code commit → deployment.
+
 
 ## Live Application
 http://threat.devopscookie.com
@@ -127,3 +126,5 @@ Handling monorepo builds in Docker
 ## Conclusion
 
 This project demonstrates a real-world DevOps deployment workflow using AWS-native services and modern best practices.
+
+![live app](./docs/screenshot2.jpg)
