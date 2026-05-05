@@ -42,25 +42,29 @@ http://threat.devopscookie.com
 
 ⚠️ HTTPS can be added using ACM + Route53 (optional enhancement)
 
-## Features
-✅ Deployed on ECS Fargate (serverless containers)
-✅ Application Load Balancer (ALB) for traffic routing
-✅ Multi-AZ deployment for high availability
-✅ Docker multi-stage build for optimized image size
-✅ CI/CD pipeline using GitHub Actions
-✅ Secure deployment using IAM roles (least privilege)
-✅ Custom domain via Cloudflare DNS
-✅ Infrastructure fully managed via Terraform modules
-✅ Remote Terraform state using S3 backend
-📁 Project Structure
+##  Features
+
+- ✅ Deployed on **ECS Fargate (serverless containers)**
+- ✅ Application Load Balancer (ALB) for traffic routing
+- ✅ Multi-AZ deployment for high availability
+- ✅ Docker multi-stage build for optimized image size
+- ✅ CI/CD pipeline using GitHub Actions
+- ✅ Secure deployment using IAM roles (least privilege)
+- ✅ Custom domain via Cloudflare DNS
+- ✅ Infrastructure fully managed via Terraform modules
+- ✅ Remote Terraform state using S3 backend
+
+## 📁 Project Structure
+
+```text
 ecs-project/
 ├── .github/
 │   └── workflows/
 │       └── deploy.yml        # CI/CD pipeline
 │
 ├── app/
-│   ├── Dockerfile           # Container definition
-│   └── (application code)
+│   ├── Dockerfile            # Container definition
+│   └── application code
 │
 └── terraform/
     ├── main.tf
@@ -72,6 +76,7 @@ ecs-project/
         ├── vpc/
         ├── alb/
         └── ecs/
+```
 ## Infrastructure (Terraform)
 Uses modular Terraform structure for scalability
 VPC with public subnets across multiple AZs
