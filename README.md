@@ -1,29 +1,32 @@
 ## Production-Grade ECS Deployment – Threat Composer
-## Overview
+
+## Project Structure
+
+```text
+ecs-project/
+├── .github/
+│   └── workflows/
+│       └── deploy.yml        # CI/CD pipeline
+│
+├── app/
+│   ├── Dockerfile            # Container definition
+│   └── application code
+│
+└── terraform/
+    ├── main.tf
+    ├── provider.tf
+    ├── backend.tf
+    ├── variables.tf
+    ├── outputs.tf
+    └── modules/
+        ├── vpc/
+        ├── alb/
+        └── ecs/
+```
 
 ## Architecture Diagram
-```mermaid
-flowchart LR
-    User[User / Browser] --> DNS[Cloudflare DNS<br/>threat.devopscookie.com]
-    DNS --> ALB[Application Load Balancer<br/>Public Subnets]
 
-    ALB --> ECS[ECS Fargate Service<br/>Threat Composer Container]
-
-    ECS --> ECR[Amazon ECR<br/>Docker Image]
-
-    GitHub[GitHub Repo] --> Actions[GitHub Actions CI/CD]
-    Actions --> ECR
-    Actions --> ECS
-
-    Terraform[Terraform] --> VPC[VPC<br/>Public & Private Subnets]
-    Terraform --> ALB
-    Terraform --> ECS
-    Terraform --> S3[S3 Remote State]
-    Terraform --> DDB[DynamoDB State Locking]
-
-    VPC --> ALB
-    VPC --> ECS
-```
+![Architecture Diagram](./docs/architecture.png)
 
 This project demonstrates a production-style deployment of the AWS Threat Composer application on Amazon ECS Fargate, using a fully automated DevOps pipeline.
 
@@ -54,29 +57,6 @@ http://threat.devopscookie.com
 - ✅ Infrastructure fully managed via Terraform modules
 - ✅ Remote Terraform state using S3 backend
 
-## 📁 Project Structure
-
-```text
-ecs-project/
-├── .github/
-│   └── workflows/
-│       └── deploy.yml        # CI/CD pipeline
-│
-├── app/
-│   ├── Dockerfile            # Container definition
-│   └── application code
-│
-└── terraform/
-    ├── main.tf
-    ├── provider.tf
-    ├── backend.tf
-    ├── variables.tf
-    ├── outputs.tf
-    └── modules/
-        ├── vpc/
-        ├── alb/
-        └── ecs/
-```
 ## Infrastructure (Terraform)
 Uses modular Terraform structure for scalability
 VPC with public subnets across multiple AZs
