@@ -76,6 +76,7 @@ Triggers ECS service deployment
 ## CI/CD Pipeline
 
 ![CI/CD Pipeline](./docs/screenshot.jpg)
+
 ## Docker
 Multi-stage build used for optimized image size
 Node-based runtime environment
