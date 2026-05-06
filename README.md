@@ -28,6 +28,8 @@ ecs-project/
 
 ![Architecture Diagram](./docs/architecture.png)
 
+## Overview
+
 This project demonstrates a production-style deployment of the AWS Threat Composer application on Amazon ECS Fargate, using a fully automated DevOps pipeline.
 
 It follows best practices including:
